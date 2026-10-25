@@ -1,69 +1,87 @@
 # AMBA_AHB_Peripheral_Subsystem
 
-This is my 32-bit AMBA AHB peripheral subsystem project, covering RTL design, simulation, synthesis, physical design and static timing analysis. It includes SRAM, UART, SPI and I2C, implemented using SAED 32 nm libraries.
+An AHB peripheral subsystem with SRAM, UART, SPI and I2C, built in Verilog and carried through to physical implementation using SAED 32 nm libraries.
 
-## Architecture
+For this project, I worked through the connection between the bus, the peripheral controllers and the memory, then took the design through synthesis, place and route, and timing analysis. The testbenches follow data from SRAM through the serial peripherals and back into SRAM, so the simulations cover the complete transfer path.
+
+## How the subsystem fits together
+
+The design has a shared 32-bit AHB address and data interface. An address decoder selects one of four peripheral wrappers, and a response multiplexer returns the selected peripheral's read data and ready signal.
 
 ![Subsystem block diagram](Screenshot/AMBA_AHB_Block_Diagram.png)
 
-The subsystem has four AHB peripheral wrappers connected through an address decoder and response multiplexer. Each wrapper handles the AHB interface and connects it to the respective controller. UART, SPI and I2C also have their own register blocks.
+Each wrapper connects the AHB interface to its controller. UART, SPI and I2C have register blocks for configuration, data and status. UART includes the baud-rate generator, transmitter and receiver; SPI exposes four chip-select outputs; I2C uses bidirectional SDA and SCL lines.
 
-The top-level connections are in [`ahb_peripheral_top.v`](RTL/ahb_peripheral_top.v), and the address decoding is in [`ahb_decmux.v`](RTL/ahb_decmux.v).
+The connections are in [`ahb_peripheral_top.v`](RTL/ahb_peripheral_top.v), with the address ranges defined in [`ahb_decmux.v`](RTL/ahb_decmux.v).
 
-| Peripheral | Address range | Blocks |
-| --- | --- | --- |
-| SRAM | `0x0000_0000 - 0x0000_FFFF` | AHB interface, SRAM controller and memory instances |
-| UART | `0x2000_0000 - 0x2000_00FF` | AHB interface, registers, baud-rate generator, transmitter and receiver |
-| SPI | `0x3000_0000 - 0x3000_00FF` | AHB interface, registers and SPI controller with four chip-select outputs |
-| I2C | `0x4000_0000 - 0x4000_00FF` | AHB interface, registers and I2C controller |
+| Peripheral | Address range |
+| --- | --- |
+| SRAM | `0x0000_0000 - 0x0000_FFFF` |
+| UART | `0x2000_0000 - 0x2000_00FF` |
+| SPI | `0x3000_0000 - 0x3000_00FF` |
+| I2C | `0x4000_0000 - 0x4000_00FF` |
 
-### Testbench
+### From an AHB request to a peripheral transfer
 
-![Overall design and testbench architecture](Screenshot/Overall%20Architecture%20v3.jpg)
-
-An AHB bus functional model drives the subsystem. The testbenches use UART loopback, SPI EEPROM and FeRAM models, and I2C EEPROM and real-time clock/calendar (RTCC) models. SRAM is included in each test case.
-
-### AHB basic transfers
+The AHB interface handles the bus transaction before passing it to the peripheral logic. The diagram below shows the basic transfer timing. The design uses `HTRANS` to identify transfers, `HWSTRB` for byte selection, and `HREADY` to control when the bus can move on.
 
 ![AHB basic transfers](Screenshot/AMBA_AHB_Basic_Transfers.png)
 
-## Simulation
+## Following the data through the design
 
-Waveforms from the six test cases are shown below.
+The test environment uses an AHB bus functional model to access the subsystem. Outside the design are the UART loopback connection and the SPI and I2C device models shown below.
 
-### SRAM
+![Overall design and testbench architecture](Screenshot/Overall%20Architecture%20v3.jpg)
+
+The serial tests start with data in SRAM, send it through the selected peripheral, read it back and write it to another SRAM location. That connects the bus accesses, peripheral register handling and serial communication in one test sequence. The six waveform captures below correspond to the testbenches in [`TB/`](AMBA_AHB_Peripheral_Subsystem/TB/).
+
+### SRAM: reading and writing through AHB
+
+The SRAM test covers memory accesses through the AHB wrapper and SRAM controller. It provides the memory path used by the serial tests that follow.
 
 ![SRAM-to-SRAM testbench waveform](Screenshot/screenshot_tb_sram_sram.png)
 
-### UART loopback and SRAM
+### UART: sending data out and receiving it back
+
+Data read from SRAM is loaded into the UART transmitter. With TX connected to RX, the transmitted data returns through the receiver and is written to a second SRAM location.
 
 ![UART and SRAM testbench waveform](Screenshot/screenshot_tb_uart_sram.png)
 
-### SPI EEPROM and SRAM
+### SPI: writing to EEPROM, then reading back
+
+The EEPROM test reads a byte from SRAM, sends the write-enable command, and writes the byte to EEPROM address `0x7FF0`. After the model's 5 ms write cycle, it reads the byte back through SPI and stores it in SRAM.
 
 ![SPI EEPROM and SRAM testbench waveform](Screenshot/screenshot_tb_spi_eeprom_sram.png)
 
-### SPI FeRAM and SRAM
+### SPI: the same transfer through FeRAM
+
+The FeRAM test also transfers a byte from SRAM to address `0x7FF0` in the external device, then reads it back into SRAM. This gives the SPI controller a second memory model to communicate with.
 
 ![SPI FeRAM and SRAM testbench waveform](Screenshot/screenshot_tb_spi_feram_sram.png)
 
-### I2C EEPROM and SRAM
+### I2C: an EEPROM write and readback
+
+The I2C EEPROM test writes the SRAM byte to device address `0x7FF0`, waits for the 5 ms internal write cycle, then reads it back and stores it at another SRAM location.
 
 ![I2C EEPROM and SRAM testbench waveform](Screenshot/screenshot_tb_i2c_eeprom_sram.png)
 
-### I2C RTCC and SRAM
+### I2C: accessing the RTCC's memory
+
+The real-time clock/calendar test uses the device's SRAM at address `0x22`. A byte from the subsystem SRAM is written over I2C, read back from the RTCC and returned to the subsystem SRAM.
 
 ![I2C RTCC and SRAM testbench waveform](Screenshot/screenshot_tb_i2c_rtcc_sram.png)
 
-## Synthesis and physical design
+## Taking the RTL through to layout
 
-The flow uses Synopsys Design Compiler for synthesis, IC Compiler II for physical design and PrimeTime for timing analysis. The clock target is **100 MHz (10 ns)**, as defined in [`cons.tcl`](DC/scripts/cons.tcl).
+The implementation flow uses Synopsys Design Compiler for synthesis, IC Compiler II for physical design and PrimeTime for static timing analysis. The synthesis clock target is **100 MHz**, with a **10 ns period** defined in [`cons.tcl`](DC/scripts/cons.tcl).
+
+After synthesis, the physical design work covers floorplanning, placement, clock-tree synthesis and routing. Timing analysis and ECO iterations follow, with reports retained for both fast and slow corners.
 
 ![AMBA AHB peripheral subsystem layout](Screenshot/AMBA_AHB_Peripheral_Subsystem_Layout.png)
 
-The [copy from the ICC2 outputs](Screenshot/ICC2_AMBA_AHB_Peripheral_Subsystem_Layout.png) is kept in the same folder.
+### Where the implementation stands
 
-Reports are included for synthesis, floorplanning, placement, clock-tree synthesis, routing and timing ECO iterations.
+The post-DRC-fix PrimeTime reports from ECO iteration 9 show no setup or hold violations in either corner. The routing and connectivity checks below are from the ICC2 routing stage.
 
 | Check | Result | Report |
 | --- | --- | --- |
@@ -72,9 +90,9 @@ Reports are included for synthesis, floorplanning, placement, clock-tree synthes
 | ICC2 routing | 0 open nets, 0 DRCs, 0 antenna violations | [Routing check](ICC2/reports/Routing/check_routes.rpt) |
 | ICC2 connectivity | 0 shorts, 0 opens, 0 floating routes | [Connectivity check](ICC2/reports/Routing/check_lvs.rpt) |
 
-There are still two maximum-capacitance violations on SRAM output pins in the slow-corner ECO iteration 9 report, with slack of -0.06 and -0.02. The setup and hold checks pass, but these capacitance violations remain. They are listed in the [constraint report](PT/reports/eco_iter_9/post_drc_fix/slow/cons_all_violators.rpt).
+Two maximum-capacitance violations remain on SRAM output pins in the slow-corner ECO iteration 9 [constraint report](PT/reports/eco_iter_9/post_drc_fix/slow/cons_all_violators.rpt), with slack of -0.06 and -0.02. Setup and hold are clear at that stage; the capacitance checks still need attention.
 
-## Files
+## Inside the repository
 
 | Folder | Contents |
 | --- | --- |
