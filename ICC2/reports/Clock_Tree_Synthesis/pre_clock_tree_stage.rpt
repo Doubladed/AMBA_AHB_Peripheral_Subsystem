@@ -1,0 +1,51 @@
+****************************************
+ Report : check_design 
+ Options: { pre_clock_tree_stage }
+ Design : ahb_peripheral_top
+ Version: X-2025.06-SP1-707
+ Date   : Thu Aug 20 19:34:34 2026
+****************************************
+
+Running mega-check 'pre_clock_tree_stage': 
+    Running atomic-check 'design_mismatch'
+    Running atomic-check 'scan_chain'
+    Running atomic-check 'mv_design'
+    Running atomic-check 'legality'
+    Running atomic-check 'timing'
+    Running atomic-check 'clock_trees'
+    Running atomic-check 'hier_pre_clock_tree'
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  CTS-904      Warn   4          Clock reference cell %libcell(cell %cell) have no LEQ cell speci...
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  TCK-001      Warn   1768       The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-012      Warn   2          The input port '%port' has no clock_relative delay specified. Mo...
+  ----------------------------------------------------------------------------------------------------
+  Total 1775 EMS messages : 0 errors, 1774 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  CTS-101      Info   1          %s will work on the following scenarios.
+  CTS-107      Info   1          %s will work on all clocks in active scenarios, including %d mas...
+  CTS-973      Info   1          The value of option cts.compile.enable_cell_relocation has been ...
+  LGL-130      Info   1          Legalizer threading is enabled with %s effort
+  LGL-336      Info   2          Adjusting %s to a multi-height library cell.
+  NEX-001      Warn   1          Technology layer '%s' setting '%s' is not valid
+  NPLDRC-003   Info   1          Reading PG structure for '%s'.
+  NPLDRC-007   Warn   10         Detected a sector %s on layer %s with %d metal and/or via shapes.
+  PDC-003      Warn   2          Routing direction of metal layer %s is neither "horizontal" nor ...
+  ----------------------------------------------------------------------------------------------------
+  Total 20 non-EMS messages : 0 errors, 13 warnings, 7 info.
+  ----------------------------------------------------------------------------------------------------
+
+Warning: EMS database "check_design.ems" already exists, over-writing it. (EMS-040)
+
+Information: EMS database is saved to file 'check_design.ems'.
+Information: Non-EMS messages are saved into file 'check_design2026Aug20193434.log'.
+1

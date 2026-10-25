@@ -1,0 +1,18 @@
+
+Sanity check for TLU+ vs MW-Tech files:
+ max_tlu+: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/tech/saed32nm_1p9m_Cmax.tluplus
+ min_tlu+: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/tech/saed32nm_1p9m_Cmin.tluplus
+ mapping_file: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/tech/saed32nm_tf_itf_tluplus.map
+ max_emul_tlu+: **NONE**
+ min_emul_tlu+: **NONE**
+ MW design lib: MYLIB
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+1

@@ -1,0 +1,14 @@
+****************************************
+Report : scenario
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 14:26:23 2026
+****************************************
+
+                                                                     Leakage  Dynamic                              Cell  Signal
+Name            Mode            Corner          Active  Setup  Hold  Power    Power    Max_tran  Max_cap  Min_cap  EM    EM
+----------------------------------------------------------------------------------------------------------------------------------
+ff_scenario *   fast_mode       ff1p16v25       true    false  true  true     true     true      true     true     false false
+ss_scenario *   slow_mode       ss0p95v125      true    true   false true     true     true      true     true     false false
+
+1

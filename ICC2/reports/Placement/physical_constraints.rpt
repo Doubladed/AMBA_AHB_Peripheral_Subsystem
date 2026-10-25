@@ -1,0 +1,32 @@
+****************************************
+ Report : check_design 
+ Options: { physical_constraints }
+ Design : ahb_peripheral_top
+ Version: X-2025.06-SP1-707
+ Date   : Thu Aug 20 19:32:41 2026
+****************************************
+
+Running atomic-check 'physical_constraints'
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DCHK-063     Warn   16         Fixed cell '%cell' is overlapping with blockages.
+  DCHK-085     Warn   12         Keepout  margin  of cell '%cell' lies partially or completely ou...
+  DCHK-103     Warn   16         The orientation of cell instance '%cell' does not match any lega...
+  DCHK-104     Info   5          The layer '%layer' does not contain any PG shapes.
+  DCHK-105     Warn   44         The spacing of layer '%layer' is greater than the difference of ...
+  ----------------------------------------------------------------------------------------------------
+  Total 93 EMS messages : 0 errors, 88 warnings, 5 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Total 0 non-EMS messages : 0 errors, 0 warnings, 0 info.
+  ----------------------------------------------------------------------------------------------------
+
+Warning: EMS database "check_design.ems" already exists, over-writing it. (EMS-040)
+
+Information: EMS database is saved to file 'check_design.ems'.
+1

@@ -1,0 +1,62 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Fri Aug 21 00:54:59 2026
+****************************************
+
+   late_timing
+   -----------
+
+Warning: Scenario ff_scenario is not configured for setup analysis: skipping. (UIC-058)
+Warning: None of the specified scenarios are active for setup analysis. (UIC-057)
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   ropt_net_609                 0.05           0.04           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   HWDATA[23]                   1.43           1.43           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 0
+
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: fast_mode
+  Corner: ff1p16v25
+  Scenario: ff_scenario
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 0
+1

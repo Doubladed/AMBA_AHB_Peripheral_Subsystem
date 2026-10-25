@@ -1,0 +1,45 @@
+****************************************
+Report : port
+        -design_rule
+        -input_delay
+        -drive
+        -output_delay
+Module : ahb_peripheral_top
+Mode   : fast_mode
+Corner : ff1p16v25
+Scenario: ff_scenario
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:34 2026
+****************************************
+Attributes:
+   I - ideal network
+   H - HyperScale context override
+                      Pin Cap                    Wire Cap
+                   Min          Max           Min          Max
+Port      Dir    rise/fall    rise/fall     rise/fall    rise/fall    Attributes
+--------------------------------------------------------------------------------
+HCLK      in     0.00/0.00    0.00/0.00     0.00/0.00    0.00/0.00    
+
+Port           MaxTrans MaxCap   MinCap
+-------------------------------------------
+HCLK           --       --       --
+
+                      Input Delay
+                    Min             Max       Related Related
+ Input Port     Rise    Fall    Rise    Fall   Clock   Pin       Attributes
+----------------------------------------------------------------------------
+HCLK            --      --      --      --      --      --
+
+            Resistance (min/max)
+Input Port  Rise             Fall
+--------------------------------------------------------------------------------
+HCLK        --               --
+
+                      Driving Cell
+Input Port     Type     Cell                Mult      Clock     Attrs
+--------------------------------------------------------------------------------
+HCLK           min_rise NBUFFX16_RVT        
+HCLK           min_fall NBUFFX16_RVT        
+HCLK           max_rise NBUFFX16_RVT        
+HCLK           max_fall NBUFFX16_RVT        
+1

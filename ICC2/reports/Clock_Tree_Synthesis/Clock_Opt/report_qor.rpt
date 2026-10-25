@@ -1,0 +1,26 @@
+****************************************
+Report : qor
+        -summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:36:27 2026
+****************************************
+Information: Timer using 'CRPR'. (TIM-050)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+ss_scenario        (Setup)             1.72           0.00              0
+Design             (Setup)             1.72           0.00              0
+
+ff_scenario        (Hold)              0.03           0.00              0
+Design             (Hold)              0.03           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         452682.18
+Cell Area (netlist and physical only):       452682.18
+Nets with DRC Violations:       16
+1

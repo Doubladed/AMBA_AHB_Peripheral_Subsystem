@@ -1,0 +1,85 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Fri Aug 21 11:41:02 2026
+****************************************
+
+   late_timing
+   -----------
+
+Information: Deserialized np data
+INFO: timer data loaded from /tmp/ahb_peripheral_top_48907_741718016.timdat
+Information: The stitching and editing of coupling caps is turned ON for design 'MYLIB:ahb_peripheral_top.design'. (TIM-125)
+Information: The RC mode used is DR for design 'ahb_peripheral_top'. (NEX-022)
+---extraction options---
+Corner: ss0p95v125
+Corner: ff1p16v25
+Global options:
+ late_ccap_threshold       : 3 fF
+ late_ccap_ratio           : 0.03
+ reference_direction       : use_from_tluplus
+ real_metalfill_extraction : none
+ virtual_shield_extraction : true
+---app options---
+ host.max_cores                   : 4
+ extract.connect_open           : true
+ extract.enable_coupling_cap    : true
+Extracting design: ahb_peripheral_top 
+Information: coupling capacitance is created explicitly. (NEX-029)
+Information: 4721 nets are successfully extracted. (NEX-028)
+Warning: Advanced receiver model has not been enabled for detailed routed design. (TIM-204)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 4721, routed nets = 4721, across physical hierarchy nets = 0, parasitics cached nets = 4721, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+Warning: Scenario ff_scenario is not configured for setup analysis: skipping. (UIC-058)
+Warning: None of the specified scenarios are active for setup analysis. (UIC-057)
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   ropt_net_609                 0.05           0.04           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   copt_gre_net_592            16.00          15.94           0.06  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 0
+
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: fast_mode
+  Corner: ff1p16v25
+  Scenario: ff_scenario
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 0
+1

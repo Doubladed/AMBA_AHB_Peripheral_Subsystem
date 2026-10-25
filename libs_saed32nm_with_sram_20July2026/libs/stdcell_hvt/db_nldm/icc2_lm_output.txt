@@ -1,0 +1,7 @@
+
+icc2_lm_shell> exit
+Maximum memory usage for this session: 40.86 MB
+CPU usage for this session:      0 seconds (  0.00 hours)
+Elapsed time for this session:     14 seconds (  0.00 hours)
+Thank you for using IC Compiler II Library Manager.
+

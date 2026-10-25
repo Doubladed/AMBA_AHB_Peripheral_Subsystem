@@ -1,0 +1,2 @@
+libs_saed32nm_with_sram_20July2026/libs/sram/milkyway/SRAM32NM/CEL/SRAM1RW256x128_1 filter=lfs diff=lfs merge=lfs -text
+libs_saed32nm_with_sram_20July2026/libs/sram/milkyway/SRAM32NM/CEL/SRAM1RW512x128_1 filter=lfs diff=lfs merge=lfs -text

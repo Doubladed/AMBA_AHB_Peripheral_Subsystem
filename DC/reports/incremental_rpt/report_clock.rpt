@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : clocks
+Design : ahb_peripheral_top
+Version: X-2025.06-SP5
+Date   : Thu Aug 20 14:17:43 2026
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+HCLK            10.00   {0 5}                         {HCLK}
+--------------------------------------------------------------------------------
+1

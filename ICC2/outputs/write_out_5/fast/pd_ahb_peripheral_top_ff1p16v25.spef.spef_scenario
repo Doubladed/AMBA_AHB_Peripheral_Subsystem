@@ -1,0 +1,6 @@
+/home/user/Documents/Project/ICC2/outputs/write_out_5/fast/pd_ahb_peripheral_top_ff1p16v25.spef.maxTLU_125.spef for scenarios: 
+	 scenario: ss_scenario, corner type: late/early
+
+/home/user/Documents/Project/ICC2/outputs/write_out_5/fast/pd_ahb_peripheral_top_ff1p16v25.spef.minTLU_25.spef for scenarios: 
+	 scenario: ff_scenario, corner type: late/early
+

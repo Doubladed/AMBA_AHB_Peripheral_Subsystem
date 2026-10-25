@@ -1,0 +1,69 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:56:00 2026
+****************************************
+
+   late_timing
+   -----------
+
+Warning: Scenario ff_scenario is not configured for setup analysis: skipping. (UIC-058)
+Warning: None of the specified scenarios are active for setup analysis. (UIC-057)
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   ropt_net_609                 0.05           0.04           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   AHB_SRAM_WRAPPER_sl_wdata[8]
+                                8.00           8.03          -0.03  (VIOLATED) 
+     PIN : AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_wdata_reg_8_/Q
+                                8.00           8.03          -0.03  (VIOLATED) 
+
+   copt_gre_net_593            16.00          16.02          -0.02  (VIOLATED) 
+     PIN : copt_gre_mc_inst_2993/Y
+                               16.00          16.02          -0.02  (VIOLATED) 
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 2
+
+
+   Mode: fast_mode Corner: ff1p16v25
+   Scenario: ff_scenario
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: fast_mode
+  Corner: ff1p16v25
+  Scenario: ff_scenario
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 2
+1

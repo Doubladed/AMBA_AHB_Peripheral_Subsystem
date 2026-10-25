@@ -1,0 +1,60 @@
+Warning: Scenario ff_scenario is not configured for setup analysis: skipping. (UIC-058)
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 1
+        -report_by design
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:33 2026
+****************************************
+
+  Startpoint: HADDR[21] (input port clocked by HCLK)
+  Endpoint: AHB_UART_WRAPPER_AHB_UART_SUB_read_wait_counter_reg_0_ (rising edge-triggered flip-flop clocked by HCLK)
+  Mode: slow_mode
+  Corner: ss0p95v125
+  Scenario: ss_scenario
+  Path Group: **in2reg_default**
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock HCLK (rise edge)                           0.00      0.00
+  clock network delay (ideal)                      0.00      0.01
+  input external delay                             6.00      6.01 f
+  HADDR[21] (in)                                   0.01      6.01 f
+  ZBUF_2_inst_1695/Y (NBUFFX2_HVT)                 0.06      6.07 f
+  ZBUF_2_inst_1532/Y (NBUFFX2_HVT)                 0.06      6.12 f
+  U4360/Y (OR4X1_HVT)                              0.20      6.33 f
+  HFSINV_4_293/Y (INVX8_HVT)                       0.08      6.41 r
+  ctmTdsLR_1_1332/Y (AND3X1_HVT)                   0.18      6.60 r
+  ctmTdsLR_2_1333/Y (INVX8_HVT)                    0.09      6.68 f
+  ctmTdsLR_1_1401/Y (NOR3X0_HVT)                   0.16      6.84 r
+  ctmTdsLR_2_1402/Y (INVX1_RVT)                    0.06      6.90 f
+  U4371/Y (OR3X2_HVT)                              0.14      7.04 f
+  HFSINV_116_377/Y (INVX0_LVT)                     0.03      7.07 r
+  U4372/Y (AND4X2_HVT)                             0.25      7.33 r
+  U4374/Y (AND2X1_HVT)                             0.11      7.44 r
+  U4381/Y (AND3X1_HVT)                             0.13      7.57 r
+  U4383/Y (NAND2X0_HVT)                            0.18      7.75 f
+  ctmTdsLR_1_1145/Y (OA221X1_HVT)                  0.24      7.99 f
+  AHB_UART_WRAPPER_AHB_UART_SUB_read_wait_counter_reg_0_/D (DFFARX1_HVT)
+                                                   0.00      7.99 f
+  data arrival time                                          7.99
+
+  clock HCLK (rise edge)                          10.00     10.00
+  clock network delay (ideal)                      0.00     10.00
+  AHB_UART_WRAPPER_AHB_UART_SUB_read_wait_counter_reg_0_/CLK (DFFARX1_HVT)
+                                                   0.00     10.00 r
+  clock uncertainty                               -1.00      9.00
+  library setup time                              -0.09      8.91
+  data required time                                         8.91
+  ------------------------------------------------------------------------
+  data required time                                         8.91
+  data arrival time                                         -7.99
+  ------------------------------------------------------------------------
+  slack (MET)                                                0.92
+
+
+1

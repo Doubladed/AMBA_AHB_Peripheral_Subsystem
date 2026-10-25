@@ -1,0 +1,1070 @@
+Information: Using automatic max wire load selection group 'predcaps'. (ENV-003)
+Information: Using automatic min wire load selection group 'predcaps'. (ENV-003)
+Warning: Some timing arcs have been disabled for breaking timing loops or because of constant propagation. Use the 'report_disable_timing' command to get the list of these disabled timing arcs. (PTE-003)
+Information: Building multi voltage information for entire design. (MV-022)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_347_414/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_347_414/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_184_433/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_184_433/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_234_448/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_234_448/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_151_409/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_151_409/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_457_432/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_457_432/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_150_407/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_150_407/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_108_427/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_108_427/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_407_406/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_407_406/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_193_415/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_193_415/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_172_423/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_172_423/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_296_431/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_323_410/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_323_410/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_336_481/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_336_481/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_350_408/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_350_408/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_336_479/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_336_479/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_292_464/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) ZBUF_9_inst_1643/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_288_461/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_288_461/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_248_451/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_248_451/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_351_424/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_362_472/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_362_472/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_312_456/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_312_456/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_144_482/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_144_482/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_348_444/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_348_444/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_304_453/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_304_453/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_328_422/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_338_450/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_338_450/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_163_475/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_163_475/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) ZBUF_17_inst_1674/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) ZBUF_17_inst_1674/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_458_458/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_458_458/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_346_440/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_346_440/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_157_421/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_157_421/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_405_452/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_405_452/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_439_438/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_439_438/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_386_418/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_386_418/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_448_436/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_448_436/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_428_416/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_428_416/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_436_426/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX16_HVT) HFSBUF_436_426/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_335_460/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_335_460/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_146_455/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_146_455/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_179_483/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_179_483/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_185_417/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_185_417/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_138_454/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_342_474/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_342_474/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_147_413/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_142_445/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_147_413/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_142_445/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_194_412/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_194_412/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_179_405/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_146_439/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_146_439/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_179_405/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_136_463/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_136_463/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_177_471/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_177_471/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_163_465/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_163_465/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_169_443/A-->Y (min rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Warning: The drive-resistance for the timing arc (saed32hvt_ff1p16v25c/NBUFFX32_HVT) HFSBUF_169_443/A-->Y (max rising & falling positive_unate) is much less than the network impedance to ground; PrimeTime has adjusted the drive-resistance to improve accuracy. (RC-009)
+Information: Checking 'no_input_delay'.
+Warning: There are 1 ports with no clock-relative input delay specified.
+Since the variable 'timing_input_port_default_clock' is 'false',
+paths from such ports will be unconstrained.
+
+Ports
+------------------------------------------------------------
+HRESETn
+
+Information: Checking 'no_driving_cell'.
+Warning: There are 2 ports with parasitics but with no driving cell.
+
+Ports
+------------------------------------------------------------
+I2C_SCL
+I2C_SDA
+
+Information: Checking 'unconstrained_endpoints'.
+Information: Checking 'unexpandable_clocks'.
+ Failed clocks set      Related clocks           Original Period     Expanded Period     Added Edges     Voltage Config
+-----------------------------------------------------------------------------------------------------------------------
+Information: Checking 'latch_fanout'.
+Information: Checking 'no_clock'.
+Information: Checking 'partial_input_delay'.
+Information: Checking 'generic'.
+Information: Checking 'loops'.
+Information: Checking 'generated_clocks'.
+Information: Checking 'pulse_clock_non_pulse_clock_merge'.
+Information: Checking 'pll_configuration'.
+Information: Checking 'voltage_level'.
+
+Check cell voltage level related issues including rail voltages
+Cell Name                      min/max    issues found 
+----------------------------------------------------------------------
+0
+****************************************
+Report : clock_skew
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+              Min Rise  Min Fall  Max Rise  Max Fall     Hold          Setup        Related
+Object          Delay     Delay     Delay     Delay   Uncertainty   Uncertainty      Clock
+-----------------------------------------------------------------------------------------------
+HCLK             0.06      0.06      0.06      0.06      0.00          0.00           -- 
+
+****************************************
+Report : clock
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+Attributes:
+    p - Propagated clock
+    G - Generated  clock
+    I - Inactive   clock
+
+Clock             Period          Waveform            Attrs     Sources
+-----------------------------------------------------------------------
+HCLK               10.00          {0 5}                         {HCLK}
+
+1
+****************************************
+Report : port
+	-verbose
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+Attributes:
+    I - ideal network
+    H - HyperScale context override
+
+                          Pin Cap         Wire Cap
+Port           Dir        min/max         min/max     Attributes
+-------------------------------------------------------------------
+HADDR[0]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[1]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[2]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[3]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[4]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[5]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[6]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[7]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[8]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[9]       in      0.0000/0.0000   0.0000/0.0000  
+HADDR[10]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[11]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[12]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[13]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[14]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[15]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[16]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[17]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[18]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[19]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[20]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[21]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[22]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[23]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[24]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[25]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[26]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[27]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[28]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[29]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[30]      in      0.0000/0.0000   0.0000/0.0000  
+HADDR[31]      in      0.0000/0.0000   0.0000/0.0000  
+HCLK           in      0.0000/0.0000   0.0000/0.0000  
+HRDATA[0]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[1]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[2]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[3]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[4]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[5]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[6]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[7]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[8]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[9]      out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[10]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[11]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[12]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[13]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[14]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[15]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[16]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[17]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[18]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[19]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[20]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[21]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[22]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[23]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[24]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[25]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[26]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[27]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[28]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[29]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[30]     out     1.4343/1.4343   0.0000/0.0000  
+HRDATA[31]     out     1.4343/1.4343   0.0000/0.0000  
+HREADY         out     1.4343/1.4343   0.0000/0.0000  
+HRESETn        in      0.0000/0.0000   0.0000/0.0000  
+HTRANS[0]      in      0.0000/0.0000   0.0000/0.0000  
+HTRANS[1]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[0]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[1]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[2]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[3]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[4]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[5]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[6]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[7]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[8]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[9]      in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[10]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[11]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[12]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[13]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[14]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[15]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[16]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[17]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[18]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[19]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[20]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[21]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[22]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[23]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[24]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[25]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[26]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[27]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[28]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[29]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[30]     in      0.0000/0.0000   0.0000/0.0000  
+HWDATA[31]     in      0.0000/0.0000   0.0000/0.0000  
+HWRITE         in      0.0000/0.0000   0.0000/0.0000  
+HWSTRB[0]      in      0.0000/0.0000   0.0000/0.0000  
+HWSTRB[1]      in      0.0000/0.0000   0.0000/0.0000  
+HWSTRB[2]      in      0.0000/0.0000   0.0000/0.0000  
+HWSTRB[3]      in      0.0000/0.0000   0.0000/0.0000  
+I2C_SCL        inout   1.4343/1.4343   0.0000/0.0000  
+I2C_SDA        inout   1.4343/1.4343   0.0000/0.0000  
+SPI_CS_n[0]    out     1.4343/1.4343   0.0000/0.0000  
+SPI_CS_n[1]    out     1.4343/1.4343   0.0000/0.0000  
+SPI_CS_n[2]    out     1.4343/1.4343   0.0000/0.0000  
+SPI_CS_n[3]    out     1.4343/1.4343   0.0000/0.0000  
+SPI_MISO       in      0.0000/0.0000   0.0000/0.0000  
+SPI_MOSI       out     1.4343/1.4343   0.0000/0.0000  
+SPI_SCK        out     1.4343/1.4343   0.0000/0.0000  
+UART_Rx        in      0.0000/0.0000   0.0000/0.0000  
+UART_Tx        out     1.4343/1.4343   0.0000/0.0000  
+
+
+                    Max      Min     Max      Max    Fanout
+Port                Cap      Cap    Trans   Fanout    Load
+--------------------------------------------------------------------------------
+HADDR[0]         1.4343   --       --       --       n/a
+HADDR[1]         1.4343   --       --       --       n/a
+HADDR[2]         1.4343   --       --       --       n/a
+HADDR[3]         1.4343   --       --       --       n/a
+HADDR[4]         1.4343   --       --       --       n/a
+HADDR[5]         1.4343   --       --       --       n/a
+HADDR[6]         1.4343   --       --       --       n/a
+HADDR[7]         1.4343   --       --       --       n/a
+HADDR[8]         1.4343   --       --       --       n/a
+HADDR[9]         1.4343   --       --       --       n/a
+HADDR[10]        1.4343   --       --       --       n/a
+HADDR[11]        1.4343   --       --       --       n/a
+HADDR[12]        1.4343   --       --       --       n/a
+HADDR[13]        1.4343   --       --       --       n/a
+HADDR[14]        1.4343   --       --       --       n/a
+HADDR[15]        1.4343   --       --       --       n/a
+HADDR[16]        1.4343   --       --       --       n/a
+HADDR[17]        1.4343   --       --       --       n/a
+HADDR[18]        1.4343   --       --       --       n/a
+HADDR[19]        1.4343   --       --       --       n/a
+HADDR[20]        1.4343   --       --       --       n/a
+HADDR[21]        1.4343   --       --       --       n/a
+HADDR[22]        1.4343   --       --       --       n/a
+HADDR[23]        1.4343   --       --       --       n/a
+HADDR[24]        1.4343   --       --       --       n/a
+HADDR[25]        1.4343   --       --       --       n/a
+HADDR[26]        1.4343   --       --       --       n/a
+HADDR[27]        1.4343   --       --       --       n/a
+HADDR[28]        1.4343   --       --       --       n/a
+HADDR[29]        1.4343   --       --       --       n/a
+HADDR[30]        1.4343   --       --       --       n/a
+HADDR[31]        1.4343   --       --       --       n/a
+HCLK            82.0000   --       0.2134   --       n/a
+HRDATA[0]        --       --       --       n/a      0.0000
+HRDATA[1]        --       --       --       n/a      0.0000
+HRDATA[2]        --       --       --       n/a      0.0000
+HRDATA[3]        --       --       --       n/a      0.0000
+HRDATA[4]        --       --       --       n/a      0.0000
+HRDATA[5]        --       --       --       n/a      0.0000
+HRDATA[6]        --       --       --       n/a      0.0000
+HRDATA[7]        --       --       --       n/a      0.0000
+HRDATA[8]        --       --       --       n/a      0.0000
+HRDATA[9]        --       --       --       n/a      0.0000
+HRDATA[10]       --       --       --       n/a      0.0000
+HRDATA[11]       --       --       --       n/a      0.0000
+HRDATA[12]       --       --       --       n/a      0.0000
+HRDATA[13]       --       --       --       n/a      0.0000
+HRDATA[14]       --       --       --       n/a      0.0000
+HRDATA[15]       --       --       --       n/a      0.0000
+HRDATA[16]       --       --       --       n/a      0.0000
+HRDATA[17]       --       --       --       n/a      0.0000
+HRDATA[18]       --       --       --       n/a      0.0000
+HRDATA[19]       --       --       --       n/a      0.0000
+HRDATA[20]       --       --       --       n/a      0.0000
+HRDATA[21]       --       --       --       n/a      0.0000
+HRDATA[22]       --       --       --       n/a      0.0000
+HRDATA[23]       --       --       --       n/a      0.0000
+HRDATA[24]       --       --       --       n/a      0.0000
+HRDATA[25]       --       --       --       n/a      0.0000
+HRDATA[26]       --       --       --       n/a      0.0000
+HRDATA[27]       --       --       --       n/a      0.0000
+HRDATA[28]       --       --       --       n/a      0.0000
+HRDATA[29]       --       --       --       n/a      0.0000
+HRDATA[30]       --       --       --       n/a      0.0000
+HRDATA[31]       --       --       --       n/a      0.0000
+HREADY           --       --       --       n/a      0.0000
+HRESETn          1.4343   --       --       --       n/a
+HTRANS[0]        1.4343   --       --       --       n/a
+HTRANS[1]        1.4343   --       --       --       n/a
+HWDATA[0]        1.4343   --       --       --       n/a
+HWDATA[1]        1.4343   --       --       --       n/a
+HWDATA[2]        1.4343   --       --       --       n/a
+HWDATA[3]        1.4343   --       --       --       n/a
+HWDATA[4]        1.4343   --       --       --       n/a
+HWDATA[5]        1.4343   --       --       --       n/a
+HWDATA[6]        1.4343   --       --       --       n/a
+HWDATA[7]        1.4343   --       --       --       n/a
+HWDATA[8]        1.4343   --       --       --       n/a
+HWDATA[9]        1.4343   --       --       --       n/a
+HWDATA[10]       1.4343   --       --       --       n/a
+HWDATA[11]       1.4343   --       --       --       n/a
+HWDATA[12]       1.4343   --       --       --       n/a
+HWDATA[13]       1.4343   --       --       --       n/a
+HWDATA[14]       1.4343   --       --       --       n/a
+HWDATA[15]       1.4343   --       --       --       n/a
+HWDATA[16]       1.4343   --       --       --       n/a
+HWDATA[17]       1.4343   --       --       --       n/a
+HWDATA[18]       1.4343   --       --       --       n/a
+HWDATA[19]       1.4343   --       --       --       n/a
+HWDATA[20]       1.4343   --       --       --       n/a
+HWDATA[21]       1.4343   --       --       --       n/a
+HWDATA[22]       1.4343   --       --       --       n/a
+HWDATA[23]       1.4343   --       --       --       n/a
+HWDATA[24]       1.4343   --       --       --       n/a
+HWDATA[25]       1.4343   --       --       --       n/a
+HWDATA[26]       1.4343   --       --       --       n/a
+HWDATA[27]       1.4343   --       --       --       n/a
+HWDATA[28]       1.4343   --       --       --       n/a
+HWDATA[29]       1.4343   --       --       --       n/a
+HWDATA[30]       1.4343   --       --       --       n/a
+HWDATA[31]       1.4343   --       --       --       n/a
+HWRITE           1.4343   --       --       --       n/a
+HWSTRB[0]        1.4343   --       --       --       n/a
+HWSTRB[1]        1.4343   --       --       --       n/a
+HWSTRB[2]        1.4343   --       --       --       n/a
+HWSTRB[3]        1.4343   --       --       --       n/a
+I2C_SCL          --       --       --       --       0.0000
+I2C_SDA          --       --       --       --       0.0000
+SPI_CS_n[0]      --       --       --       n/a      0.0000
+SPI_CS_n[1]      --       --       --       n/a      0.0000
+SPI_CS_n[2]      --       --       --       n/a      0.0000
+SPI_CS_n[3]      --       --       --       n/a      0.0000
+SPI_MISO         1.4343   --       --       --       n/a
+SPI_MOSI         --       --       --       n/a      0.0000
+SPI_SCK          --       --       --       n/a      0.0000
+UART_Rx          1.4343   --       --       --       n/a
+UART_Tx          --       --       --       n/a      0.0000
+
+
+               External Fanout
+               Number   Wire Load
+               Points   Model
+Port           min/max  min/max
+------------------------------------------------------------
+HADDR[0]          0/0     -- /  -- 
+HADDR[1]          0/0     -- /  -- 
+HADDR[2]          0/0     -- /  -- 
+HADDR[3]          0/0     -- /  -- 
+HADDR[4]          0/0     -- /  -- 
+HADDR[5]          0/0     -- /  -- 
+HADDR[6]          0/0     -- /  -- 
+HADDR[7]          0/0     -- /  -- 
+HADDR[8]          0/0     -- /  -- 
+HADDR[9]          0/0     -- /  -- 
+HADDR[10]         0/0     -- /  -- 
+HADDR[11]         0/0     -- /  -- 
+HADDR[12]         0/0     -- /  -- 
+HADDR[13]         0/0     -- /  -- 
+HADDR[14]         0/0     -- /  -- 
+HADDR[15]         0/0     -- /  -- 
+HADDR[16]         0/0     -- /  -- 
+HADDR[17]         0/0     -- /  -- 
+HADDR[18]         0/0     -- /  -- 
+HADDR[19]         0/0     -- /  -- 
+HADDR[20]         0/0     -- /  -- 
+HADDR[21]         0/0     -- /  -- 
+HADDR[22]         0/0     -- /  -- 
+HADDR[23]         0/0     -- /  -- 
+HADDR[24]         0/0     -- /  -- 
+HADDR[25]         0/0     -- /  -- 
+HADDR[26]         0/0     -- /  -- 
+HADDR[27]         0/0     -- /  -- 
+HADDR[28]         0/0     -- /  -- 
+HADDR[29]         0/0     -- /  -- 
+HADDR[30]         0/0     -- /  -- 
+HADDR[31]         0/0     -- /  -- 
+HCLK              0/0     -- /  -- 
+HRDATA[0]         0/0     -- /  -- 
+HRDATA[1]         0/0     -- /  -- 
+HRDATA[2]         0/0     -- /  -- 
+HRDATA[3]         0/0     -- /  -- 
+HRDATA[4]         0/0     -- /  -- 
+HRDATA[5]         0/0     -- /  -- 
+HRDATA[6]         0/0     -- /  -- 
+HRDATA[7]         0/0     -- /  -- 
+HRDATA[8]         0/0     -- /  -- 
+HRDATA[9]         0/0     -- /  -- 
+HRDATA[10]        0/0     -- /  -- 
+HRDATA[11]        0/0     -- /  -- 
+HRDATA[12]        0/0     -- /  -- 
+HRDATA[13]        0/0     -- /  -- 
+HRDATA[14]        0/0     -- /  -- 
+HRDATA[15]        0/0     -- /  -- 
+HRDATA[16]        0/0     -- /  -- 
+HRDATA[17]        0/0     -- /  -- 
+HRDATA[18]        0/0     -- /  -- 
+HRDATA[19]        0/0     -- /  -- 
+HRDATA[20]        0/0     -- /  -- 
+HRDATA[21]        0/0     -- /  -- 
+HRDATA[22]        0/0     -- /  -- 
+HRDATA[23]        0/0     -- /  -- 
+HRDATA[24]        0/0     -- /  -- 
+HRDATA[25]        0/0     -- /  -- 
+HRDATA[26]        0/0     -- /  -- 
+HRDATA[27]        0/0     -- /  -- 
+HRDATA[28]        0/0     -- /  -- 
+HRDATA[29]        0/0     -- /  -- 
+HRDATA[30]        0/0     -- /  -- 
+HRDATA[31]        0/0     -- /  -- 
+HREADY            0/0     -- /  -- 
+HRESETn           0/0     -- /  -- 
+HTRANS[0]         0/0     -- /  -- 
+HTRANS[1]         0/0     -- /  -- 
+HWDATA[0]         0/0     -- /  -- 
+HWDATA[1]         0/0     -- /  -- 
+HWDATA[2]         0/0     -- /  -- 
+HWDATA[3]         0/0     -- /  -- 
+HWDATA[4]         0/0     -- /  -- 
+HWDATA[5]         0/0     -- /  -- 
+HWDATA[6]         0/0     -- /  -- 
+HWDATA[7]         0/0     -- /  -- 
+HWDATA[8]         0/0     -- /  -- 
+HWDATA[9]         0/0     -- /  -- 
+HWDATA[10]        0/0     -- /  -- 
+HWDATA[11]        0/0     -- /  -- 
+HWDATA[12]        0/0     -- /  -- 
+HWDATA[13]        0/0     -- /  -- 
+HWDATA[14]        0/0     -- /  -- 
+HWDATA[15]        0/0     -- /  -- 
+HWDATA[16]        0/0     -- /  -- 
+HWDATA[17]        0/0     -- /  -- 
+HWDATA[18]        0/0     -- /  -- 
+HWDATA[19]        0/0     -- /  -- 
+HWDATA[20]        0/0     -- /  -- 
+HWDATA[21]        0/0     -- /  -- 
+HWDATA[22]        0/0     -- /  -- 
+HWDATA[23]        0/0     -- /  -- 
+HWDATA[24]        0/0     -- /  -- 
+HWDATA[25]        0/0     -- /  -- 
+HWDATA[26]        0/0     -- /  -- 
+HWDATA[27]        0/0     -- /  -- 
+HWDATA[28]        0/0     -- /  -- 
+HWDATA[29]        0/0     -- /  -- 
+HWDATA[30]        0/0     -- /  -- 
+HWDATA[31]        0/0     -- /  -- 
+HWRITE            0/0     -- /  -- 
+HWSTRB[0]         0/0     -- /  -- 
+HWSTRB[1]         0/0     -- /  -- 
+HWSTRB[2]         0/0     -- /  -- 
+HWSTRB[3]         0/0     -- /  -- 
+I2C_SCL           0/0     -- /  -- 
+I2C_SDA           0/0     -- /  -- 
+SPI_CS_n[0]       0/0     -- /  -- 
+SPI_CS_n[1]       0/0     -- /  -- 
+SPI_CS_n[2]       0/0     -- /  -- 
+SPI_CS_n[3]       0/0     -- /  -- 
+SPI_MISO          0/0     -- /  -- 
+SPI_MOSI          0/0     -- /  -- 
+SPI_SCK           0/0     -- /  -- 
+UART_Rx           0/0     -- /  -- 
+UART_Tx           0/0     -- /  -- 
+
+
+                    Input Delay
+                  Min             Max       Related Related
+ Input Port    Rise   Fall    Rise    Fall   Clock   Pin       Attrs
+----------------------------------------------------------------------
+HADDR[0]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[1]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[2]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[3]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[4]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[5]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[6]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[7]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[8]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[9]      6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[10]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[11]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[12]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[13]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[14]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[15]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[16]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[17]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[18]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[19]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[20]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[21]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[22]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[23]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[24]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[25]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[26]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[27]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[28]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[29]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[30]     6.00    6.00    6.00    6.00  HCLK      --      
+HADDR[31]     6.00    6.00    6.00    6.00  HCLK      --      
+HCLK          --      --      --      --      --      --        -- 
+HRESETn       --      --      --      --      --      --        -- 
+HTRANS[0]     6.00    6.00    6.00    6.00  HCLK      --      
+HTRANS[1]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[0]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[1]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[2]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[3]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[4]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[5]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[6]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[7]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[8]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[9]     6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[10]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[11]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[12]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[13]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[14]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[15]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[16]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[17]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[18]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[19]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[20]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[21]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[22]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[23]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[24]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[25]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[26]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[27]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[28]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[29]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[30]    6.00    6.00    6.00    6.00  HCLK      --      
+HWDATA[31]    6.00    6.00    6.00    6.00  HCLK      --      
+HWRITE        6.00    6.00    6.00    6.00  HCLK      --      
+HWSTRB[0]     6.00    6.00    6.00    6.00  HCLK      --      
+HWSTRB[1]     6.00    6.00    6.00    6.00  HCLK      --      
+HWSTRB[2]     6.00    6.00    6.00    6.00  HCLK      --      
+HWSTRB[3]     6.00    6.00    6.00    6.00  HCLK      --      
+I2C_SCL       6.00    6.00    6.00    6.00  HCLK      --      
+I2C_SDA       6.00    6.00    6.00    6.00  HCLK      --      
+SPI_MISO      6.00    6.00    6.00    6.00  HCLK      --      
+UART_Rx       6.00    6.00    6.00    6.00  HCLK      --      
+
+
+              Resistance (min/max)
+Input Port    Rise             Fall
+--------------------------------------------------------------------------------
+HADDR[0]    --               --
+HADDR[1]    --               --
+HADDR[2]    --               --
+HADDR[3]    --               --
+HADDR[4]    --               --
+HADDR[5]    --               --
+HADDR[6]    --               --
+HADDR[7]    --               --
+HADDR[8]    --               --
+HADDR[9]    --               --
+HADDR[10]   --               --
+HADDR[11]   --               --
+HADDR[12]   --               --
+HADDR[13]   --               --
+HADDR[14]   --               --
+HADDR[15]   --               --
+HADDR[16]   --               --
+HADDR[17]   --               --
+HADDR[18]   --               --
+HADDR[19]   --               --
+HADDR[20]   --               --
+HADDR[21]   --               --
+HADDR[22]   --               --
+HADDR[23]   --               --
+HADDR[24]   --               --
+HADDR[25]   --               --
+HADDR[26]   --               --
+HADDR[27]   --               --
+HADDR[28]   --               --
+HADDR[29]   --               --
+HADDR[30]   --               --
+HADDR[31]   --               --
+HCLK        --               --
+HRESETn     --               --
+HTRANS[0]   --               --
+HTRANS[1]   --               --
+HWDATA[0]   --               --
+HWDATA[1]   --               --
+HWDATA[2]   --               --
+HWDATA[3]   --               --
+HWDATA[4]   --               --
+HWDATA[5]   --               --
+HWDATA[6]   --               --
+HWDATA[7]   --               --
+HWDATA[8]   --               --
+HWDATA[9]   --               --
+HWDATA[10]  --               --
+HWDATA[11]  --               --
+HWDATA[12]  --               --
+HWDATA[13]  --               --
+HWDATA[14]  --               --
+HWDATA[15]  --               --
+HWDATA[16]  --               --
+HWDATA[17]  --               --
+HWDATA[18]  --               --
+HWDATA[19]  --               --
+HWDATA[20]  --               --
+HWDATA[21]  --               --
+HWDATA[22]  --               --
+HWDATA[23]  --               --
+HWDATA[24]  --               --
+HWDATA[25]  --               --
+HWDATA[26]  --               --
+HWDATA[27]  --               --
+HWDATA[28]  --               --
+HWDATA[29]  --               --
+HWDATA[30]  --               --
+HWDATA[31]  --               --
+HWRITE      --               --
+HWSTRB[0]   --               --
+HWSTRB[1]   --               --
+HWSTRB[2]   --               --
+HWSTRB[3]   --               --
+I2C_SCL     --               --
+I2C_SDA     --               --
+SPI_MISO    --               --
+UART_Rx     --               --
+
+              Transition (min/Max)
+Input Port    Rise             Fall           Related clock
+--------------------------------------------------------------------------------
+
+
+                    Driving Cell
+Input Port    Rise(min/max)       Fall(min/max)       Mult(min/max)  Clock     Attrs(min/max)
+--------------------------------------------------------------------------------
+HADDR[0]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[1]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[2]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[3]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[4]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[5]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[6]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[7]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[8]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[9]      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[10]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[11]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[12]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[13]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[14]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[15]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[16]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[17]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[18]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[19]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[20]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[21]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[22]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[23]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[24]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[25]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[26]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[27]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[28]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[29]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[30]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HADDR[31]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HCLK          NBUFFX16_RVT/NBUFFX16_RVT
+                                  NBUFFX16_RVT/NBUFFX16_RVT
+                                                        -- /  --       --      
+HRESETn       saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HTRANS[0]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HTRANS[1]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[0]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[1]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[2]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[3]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[4]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[5]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[6]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[7]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[8]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[9]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[10]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[11]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[12]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[13]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[14]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[15]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[16]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[17]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[18]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[19]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[20]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[21]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[22]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[23]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[24]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[25]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[26]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[27]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[28]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[29]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[30]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWDATA[31]    saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWRITE        saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWSTRB[0]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWSTRB[1]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWSTRB[2]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+HWSTRB[3]     saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+SPI_MISO      saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+UART_Rx       saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                  saed32rvt_ff1p16v25c/NAND2X1_RVT/Y
+                                                        --      --      N
+
+
+                   Output Delay
+                  Min             Max       Related Related
+ Output Port    Rise   Fall   Rise    Fall   Clock   Pin      Attrs
+----------------------------------------------------------------------
+HRDATA[0]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[1]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[2]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[3]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[4]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[5]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[6]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[7]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[8]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[9]     6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[10]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[11]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[12]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[13]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[14]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[15]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[16]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[17]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[18]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[19]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[20]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[21]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[22]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[23]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[24]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[25]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[26]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[27]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[28]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[29]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[30]    6.00    6.00    6.00    6.00  HCLK      --      
+HRDATA[31]    6.00    6.00    6.00    6.00  HCLK      --      
+HREADY        6.00    6.00    6.00    6.00  HCLK      --      
+I2C_SCL       6.00    6.00    6.00    6.00  HCLK      --      
+I2C_SDA       6.00    6.00    6.00    6.00  HCLK      --      
+SPI_CS_n[0]   6.00    6.00    6.00    6.00  HCLK      --      
+SPI_CS_n[1]   6.00    6.00    6.00    6.00  HCLK      --      
+SPI_CS_n[2]   6.00    6.00    6.00    6.00  HCLK      --      
+SPI_CS_n[3]   6.00    6.00    6.00    6.00  HCLK      --      
+SPI_MOSI      6.00    6.00    6.00    6.00  HCLK      --      
+SPI_SCK       6.00    6.00    6.00    6.00  HCLK      --      
+UART_Tx       6.00    6.00    6.00    6.00  HCLK      --      
+
+1
+****************************************
+Report : design
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+Design Attribute                         Value
+---------------------------------------------------------------------------
+Operating Conditions:
+  analysis_type                          on_chip_variation
+  operating_condition_min_name           ff1p16v25c
+  process_min                            1.01
+  temperature_min                        25
+  voltage_min                            1.16
+  tree_type_min                          worst_case
+
+  operating_condition_max_name           ff1p16v25c
+  process_max                            1.01
+  temperature_max                        25
+  voltage_max                            1.16
+  tree_type_max                          worst_case
+
+Wire Load:                               (use report_wire_load for more information)
+  wire_load_mode                         enclosed
+  wire_load_model_max                    540000
+  wire_load_model_library_max            saed32hvt_ff1p16v25c
+  wire_load_selection_type_max           automatic-by-area
+  wire_load_model_min                    540000
+  wire_load_model_library_min            saed32hvt_ff1p16v25c
+  wire_load_selection_type_min           automatic-by-area
+  wire_load_selection_group_max          predcaps
+  wire_load_selection_group_min          predcaps
+  wire_load_min_block_size               0
+
+Design Rules:
+  max_capacitance                        --
+  min_capacitance                        --
+  max_fanout                             --
+  max_transition                         --
+  static_integrity                       --
+  dynamic_integrity                      --
+  max_coupled_transition                 --
+  max_area                               --
+
+Timing Ranges:
+  early_factor                           --
+  late_factor                            --
+
+Pin Input Delays:
+None specified.
+
+Pin Output Delays:
+None specified.
+Fast Analysis:                           disabled
+
+1
+****************************************
+Report : exceptions
+	-ignored
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+1
+****************************************
+Report : case_analysis
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:48:40 2026
+****************************************
+
+
+1

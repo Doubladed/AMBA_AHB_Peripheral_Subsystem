@@ -1,0 +1,32 @@
+ 
+****************************************
+Report : area
+Design : ahb_peripheral_top
+Version: X-2025.06-SP5
+Date   : Thu Aug 20 14:16:44 2026
+****************************************
+
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+    saed32lvt_ss0p95v125c (File: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db)
+    saed32sram_ss0p95v125c (File: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/sram/db_nldm/saed32sram_ss0p95v125c.db)
+
+Number of ports:                          117
+Number of nets:                          4703
+Number of cells:                         4032
+Number of combinational cells:           3129
+Number of sequential cells:               886
+Number of macros/black boxes:              16
+Number of buf/inv:                        892
+Number of references:                      53
+
+Combinational area:               8141.503156
+Buf/Inv area:                     2143.196395
+Noncombinational area:            6500.749512
+Macro/Black Box area:           437636.843750
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                452279.096417
+Total area:                 undefined
+1

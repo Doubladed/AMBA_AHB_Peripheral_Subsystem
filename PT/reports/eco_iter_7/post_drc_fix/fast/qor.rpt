@@ -1,0 +1,50 @@
+****************************************
+Report : qor
+	-pba_mode exhaustive
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Fri Aug 21 12:09:42 2026
+****************************************
+
+  Timing Path Group 'HCLK' (max_delay/setup)
+  ---------------------------------------------
+  Levels of Logic:                           14
+  Critical Path Length:                    6.62
+  Critical Path Slack:                     3.43
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Timing Path Group 'HCLK' (min_delay/hold)
+  ---------------------------------------------
+  Levels of Logic:                            2
+  Critical Path Length:                    0.15
+  Critical Path Slack:                     0.02
+  Total Negative Slack:                    0.00
+  No. of Violating Paths:                     0
+  ---------------------------------------------
+
+  Area
+  ---------------------------------------------
+  Net Interconnect area:                9225.91
+  Total cell area:                    452594.41
+  Design Area:                        461820.31
+  ---------------------------------------------
+
+
+  Cell & Pin Count
+  ---------------------------------------------
+  Pin Count:                              16535
+  Hierarchical Cell Count:                    0
+  Hierarchical Port Count:                    0
+  Leaf Cell Count:                         4050
+  ---------------------------------------------
+
+
+  Design Rule Violations
+  ---------------------------------------------
+  Total No. of Pins in Design:            16535
+  Total DRC Cost:                          0.00
+  ---------------------------------------------
+
+1

@@ -1,0 +1,15 @@
+/home/user/Documents/Project/DC/GLS/ahb_bfm.v
+
+/home/user/Documents/Project/DC/outputs/incremental_out/syn_ahb_peripheral_top.v
+
+/home/user/Documents/Project/SAED_RTL/saed32nm.v
+/home/user/Documents/Project/SAED_RTL/saed32nm_hvt.v
+/home/user/Documents/Project/SAED_RTL/saed32nm_lvt.v
+
+/home/user/Documents/Project/Behavioural_Models/SRAM/sram_verilog/verilog/saed32sram.v
+
+/home/user/Documents/Project/Behavioural_Models/SPI/EEPROM/25xx256_Verilog_Model/25AA256.v
+/home/user/Documents/Project/Behavioural_Models/SPI/FeRAM/MB85RS256B.v
+
+/home/user/Documents/Project/Behavioural_Models/I2C/RTCC/MCP7940M_Verilog_Model/MCP7940M.v
+/home/user/Documents/Project/Behavioural_Models/I2C/EEPROM/24xx256_Verilog_Model/24AA256.v

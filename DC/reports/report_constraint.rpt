@@ -1,0 +1,75 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP5
+Date   : Thu Aug 20 14:16:44 2026
+****************************************
+
+
+   max_capacitance
+
+                             Required        Actual
+   Net                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   HADDR[0]                     1.43          16.70         -15.26  (VIOLATED)
+   HTRANS[1]                    1.43          16.35         -14.91  (VIOLATED)
+   HRESETn                      1.43           4.27          -2.83  (VIOLATED)
+   HADDR[24]                    1.43           4.06          -2.63  (VIOLATED)
+   SPI_MISO                     1.43           3.61          -2.18  (VIOLATED)
+   UART_Rx                      1.43           3.35          -1.92  (VIOLATED)
+   AHB_SRAM_WRAPPER_sl_wdata[27]
+                               16.00          16.83          -0.83  (VIOLATED)
+   AHB_UART_WRAPPER_sl_rdata[28]
+                               16.00          16.79          -0.79  (VIOLATED)
+   n2857                       32.00          32.70          -0.70  (VIOLATED)
+   n4552                       16.00          16.64          -0.64  (VIOLATED)
+   n5040                       64.00          64.36          -0.36  (VIOLATED)
+   AHB_SPI_WRAPPER_sl_wdata[6]
+                               16.00          16.36          -0.36  (VIOLATED)
+   AHB_SPI_WRAPPER_sl_wdata[25]
+                               16.00          16.33          -0.33  (VIOLATED)
+   AHB_SRAM_WRAPPER_sl_wdata[29]
+                               16.00          16.31          -0.31  (VIOLATED)
+   AHB_SRAM_WRAPPER_sl_wdata[26]
+                               16.00          16.26          -0.26  (VIOLATED)
+   n4551                       16.00          16.24          -0.24  (VIOLATED)
+   n3212                       32.00          32.22          -0.22  (VIOLATED)
+   n2944                       32.00          32.15          -0.15  (VIOLATED)
+   n4548                       16.00          16.14          -0.14  (VIOLATED)
+   HRDATA[16]                   8.00           8.08          -0.08  (VIOLATED)
+   AHB_SRAM_WRAPPER_AHB_SRAM_SUB_addr_reg[3]
+                               16.00          16.07          -0.07  (VIOLATED)
+   n3441                        8.00           8.06          -0.06  (VIOLATED)
+   n5482                       32.00          32.04          -0.04  (VIOLATED)
+   n3092                       32.00          32.03          -0.03  (VIOLATED)
+   AHB_SPI_WRAPPER_sl_rdata[18]
+                               16.00          16.02          -0.02  (VIOLATED)
+   n3297                        8.00           8.01          -0.01  (VIOLATED)
+   AHB_SPI_WRAPPER_sl_wdata[31]
+                               16.00          16.00           0.00  (VIOLATED: increase significant digits)
+
+   -----------------------------------------------------------------
+   Total                      27                -45.35  
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   ahb_peripheral_top           0.00       452279.09      -452279.09
+                                                                    (VIOLATED)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   ahb_peripheral_top           0.00       375419424.00   -375419424.00
+                                                                    (VIOLATED)
+
+
+1

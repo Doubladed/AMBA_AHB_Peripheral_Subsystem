@@ -1,0 +1,507 @@
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              saed32hvt_ss0p95v125c
+    File name                 /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db
+    Library type              pg_pin based db
+    Library Version           1.0000000
+    Tool Created              F-2011.09-SP1
+    Data Created              [2010 APRIL 28]
+    Time unit                 1ns
+    Capacitance unit          1ff
+    Leakage power unit        1pW
+    Current unit              1uA
+check_library options         
+Version                       X-2025.06-SP3
+Check date and time           Thu Aug 20 14:09:31 2026
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (saed32hvt_ss0p95v125c):
+Power management cell checking passed.
+
+#END_LIBSCREEN_UPF
+
+
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#BEGIN_LIBSCREEN_TEST_CELL
+
+Library#1 (saed32hvt_ss0p95v125c):
+
+#END_LIBSCREEN_TEST_CELL
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 294)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              saed32rvt_ss0p95v125c
+    File name                 /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db
+    Library type              pg_pin based db
+    Library Version           1.0000000
+    Tool Created              F-2011.09-SP1
+    Data Created              [2010 APRIL 28]
+    Time unit                 1ns
+    Capacitance unit          1ff
+    Leakage power unit        1pW
+    Current unit              1uA
+check_library options         
+Version                       X-2025.06-SP3
+Check date and time           Thu Aug 20 14:09:31 2026
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (saed32rvt_ss0p95v125c):
+Power management cell checking passed.
+
+#END_LIBSCREEN_UPF
+
+
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#BEGIN_LIBSCREEN_TEST_CELL
+
+Library#1 (saed32rvt_ss0p95v125c):
+Error: Cell 'SDFFSSRX1_RVT', The cell 'SDFFSSRX1_RVT' has a next_state '(RSTB*D)+(!SETB)' in test_cell
+	which is inconsistent with the next_state '(RSTB*!SETB+RSTB*D)!SE+(SI*SE)' in top cell. (LIBG-284)
+Error: Cell 'SDFFSSRX1_RVT', The cell 'SDFFSSRX1_RVT' has a next_state '(RSTB*D)+(!SETB)' in test_cell
+	which is inconsistent with the next_state '(RSTB*!SETB+RSTB*D)!SE+(SI*SE)' in top cell. (LIBG-284)
+Error: Cell 'SDFFSSRX2_RVT', The cell 'SDFFSSRX2_RVT' has a next_state '(RSTB*D)+(!SETB)' in test_cell
+	which is inconsistent with the next_state '(RSTB*!SETB+RSTB*D)!SE+(SI*SE)' in top cell. (LIBG-284)
+Error: Cell 'SDFFSSRX2_RVT', The cell 'SDFFSSRX2_RVT' has a next_state '(RSTB*D)+(!SETB)' in test_cell
+	which is inconsistent with the next_state '(RSTB*!SETB+RSTB*D)!SE+(SI*SE)' in top cell. (LIBG-284)
+
+#END_LIBSCREEN_TEST_CELL
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 294)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              saed32lvt_ss0p95v125c
+    File name                 /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db
+    Library type              pg_pin based db
+    Library Version           1.0000000
+    Tool Created              F-2011.09-SP1
+    Data Created              [2010 APRIL 28]
+    Time unit                 1ns
+    Capacitance unit          1ff
+    Leakage power unit        1pW
+    Current unit              1uA
+check_library options         
+Version                       X-2025.06-SP3
+Check date and time           Thu Aug 20 14:09:31 2026
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (saed32lvt_ss0p95v125c):
+Power management cell checking passed.
+
+#END_LIBSCREEN_UPF
+
+
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#BEGIN_LIBSCREEN_TEST_CELL
+
+Library#1 (saed32lvt_ss0p95v125c):
+
+#END_LIBSCREEN_TEST_CELL
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 294)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library #1:
+    Library name              saed32sram_ss0p95v125c
+    File name                 /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/sram/db_nldm/saed32sram_ss0p95v125c.db
+    Library type              pg_pin based db
+    Library Version           1.0000000
+    Tool Created              F-2011.09-SP1
+    Data Created              [2010 APRIL 28]
+    Time unit                 1ns
+    Capacitance unit          1ff
+    Leakage power unit        1pW
+    Current unit              1uA
+check_library options         
+Version                       X-2025.06-SP3
+Check date and time           Thu Aug 20 14:09:32 2026
+
+
+#BEGIN_LIBSCREEN_UPF
+
+Library#1 (saed32sram_ss0p95v125c):
+PG checking passed.
+No power management cells in library#1.
+
+#END_LIBSCREEN_UPF
+
+
+Information: List of cell classification (LIBCHK-312)
+------------------------------------------------------------------------------
+Library name                saed32sram_ss0p95v125c(lib#1)
+------------------------------------------------------------------------------
+Total number                 35
+Inverter                      0
+Buffer                        0
+Level shifter                 0
+Differential level shifter    0
+Isolation cell                0
+Clock Isolation cell          0
+Retention cell                0
+Switch cell                   0
+Always on cell                0
+------------------------------------------------------------------------------
+
+#BEGIN_XCHECK_LOGICCELLS
+
+
+#BEGIN_LIBSCREEN_TEST_CELL
+
+Library#1 (saed32sram_ss0p95v125c):
+
+#END_LIBSCREEN_TEST_CELL
+
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_LOGICPINS
+
+
+
+#END_XCHECK_LOGICPINS
+
+#BEGIN_XCHECK_LOGICPGPINS
+
+Number of cells missing pg_pins in library 1:   0 (out of 35)
+
+#END_XCHECK_LOGICPGPINS
+
+#BEGIN_XCHECK_ARCS
+
+
+#END_XCHECK_ARCS
+
+
+#END_XCHECK_LIBRARY
+
+Memory usage for this session 79 Mbytes.
+CPU usage for this session 1 seconds ( 0.00 hours ).
+
+Thank you...
+
+#BEGIN_XCHECK_LIBRARY
+
+Logic Library:    saed32hvt_ss0p95v125c 
+                  saed32rvt_ss0p95v125c 
+                  saed32lvt_ss0p95v125c 
+                  saed32sram_ss0p95v125c 
+Physical Library: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_hvt/milkyway/saed32nm_hvt_1p9m 
+                  /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_rvt/milkyway/saed32nm_rvt_1p9m 
+                  /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_lvt/milkyway/saed32nm_lvt_1p9m 
+                  /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/sram/milkyway/SRAM32NM 
+check_library options: 	
+Version: 				X-2025.06-SP5
+Check date and time:	Thu Aug 20 14:09:33 2026
+
+          List of logic library and file names
+------------------------------------------------------------------------------
+Logic library name           Logic library file name
+------------------------------------------------------------------------------
+saed32hvt_ss0p95v125c        /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db
+saed32rvt_ss0p95v125c        /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db
+saed32lvt_ss0p95v125c        /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_lvt/db_nldm/saed32lvt_ss0p95v125c.db
+saed32sram_ss0p95v125c       /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/sram/db_nldm/saed32sram_ss0p95v125c.db
+------------------------------------------------------------------------------
+
+#BEGIN_XCHECK_LOGICCELLS
+
+Number of cells missing in logic library:	169 (out of 917)
+
+Information: List of cells missing in logic library (LIBCHK-210)
+-------------------------------------------------------------------------
+Cell name                  Cell type             Physical library
+-------------------------------------------------------------------------
+ISO_NOR2X4_HVT             Core                  saed32nm_hvt_1p9m
+LSUPX1_HVT                 Core                  saed32nm_hvt_1p9m
+LSUPX2_HVT                 Core                  saed32nm_hvt_1p9m
+LSUPX4_HVT                 Core                  saed32nm_hvt_1p9m
+LSUPX8_HVT                 Core                  saed32nm_hvt_1p9m
+LSDNSSX8_HVT               Core                  saed32nm_hvt_1p9m
+LSDNX1_HVT                 Core                  saed32nm_hvt_1p9m
+LSDNX2_HVT                 Core                  saed32nm_hvt_1p9m
+LSDNX4_HVT                 Core                  saed32nm_hvt_1p9m
+LSDNX8_HVT                 Core                  saed32nm_hvt_1p9m
+LSUPENCLX1_HVT             Core                  saed32nm_hvt_1p9m
+LSUPENCLX2_HVT             Core                  saed32nm_hvt_1p9m
+LSUPENCLX4_HVT             Core                  saed32nm_hvt_1p9m
+LSUPENCLX8_HVT             Core                  saed32nm_hvt_1p9m
+LSUPENX1_HVT               Core                  saed32nm_hvt_1p9m
+LSUPENX2_HVT               Core                  saed32nm_hvt_1p9m
+LSUPENX4_HVT               Core                  saed32nm_hvt_1p9m
+LSUPENX8_HVT               Core                  saed32nm_hvt_1p9m
+LSDNENCLX4_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENCLX8_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENSSX1_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENSSX2_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENSSX4_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENSSX8_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENX1_HVT               Core                  saed32nm_hvt_1p9m
+LSDNENX2_HVT               Core                  saed32nm_hvt_1p9m
+LSDNENX4_HVT               Core                  saed32nm_hvt_1p9m
+LSDNENX8_HVT               Core                  saed32nm_hvt_1p9m
+LSDNSSX1_HVT               Core                  saed32nm_hvt_1p9m
+LSDNSSX2_HVT               Core                  saed32nm_hvt_1p9m
+LSDNSSX4_HVT               Core                  saed32nm_hvt_1p9m
+LSDNENCLSSX1_HVT           Core                  saed32nm_hvt_1p9m
+LSDNENCLSSX2_HVT           Core                  saed32nm_hvt_1p9m
+LSDNENCLSSX4_HVT           Core                  saed32nm_hvt_1p9m
+LSDNENCLSSX8_HVT           Core                  saed32nm_hvt_1p9m
+LSDNENCLX1_HVT             Core                  saed32nm_hvt_1p9m
+LSDNENCLX2_HVT             Core                  saed32nm_hvt_1p9m
+HEADX2_HVT                 Core                  saed32nm_hvt_1p9m
+HEADX32_HVT                Core                  saed32nm_hvt_1p9m
+HEADX4_HVT                 Core                  saed32nm_hvt_1p9m
+HEADX8_HVT                 Core                  saed32nm_hvt_1p9m
+FOOTX16_HVT                Core                  saed32nm_hvt_1p9m
+FOOTX2_HVT                 Core                  saed32nm_hvt_1p9m
+FOOTX32_HVT                Core                  saed32nm_hvt_1p9m
+FOOTX4_HVT                 Core                  saed32nm_hvt_1p9m
+FOOTX8_HVT                 Core                  saed32nm_hvt_1p9m
+HEAD2X16_HVT               Core                  saed32nm_hvt_1p9m
+HEAD2X2_HVT                Core                  saed32nm_hvt_1p9m
+HEAD2X32_HVT               Core                  saed32nm_hvt_1p9m
+HEAD2X4_HVT                Core                  saed32nm_hvt_1p9m
+HEAD2X8_HVT                Core                  saed32nm_hvt_1p9m
+HEADX16_HVT                Core                  saed32nm_hvt_1p9m
+FOOT2X16_HVT               Core                  saed32nm_hvt_1p9m
+FOOT2X2_HVT                Core                  saed32nm_hvt_1p9m
+FOOT2X32_HVT               Core                  saed32nm_hvt_1p9m
+FOOT2X4_HVT                Core                  saed32nm_hvt_1p9m
+FOOT2X8_HVT                Core                  saed32nm_hvt_1p9m
+LSUPX1_RVT                 Core                  saed32nm_rvt_1p9m
+LSUPX2_RVT                 Core                  saed32nm_rvt_1p9m
+LSUPX4_RVT                 Core                  saed32nm_rvt_1p9m
+LSUPX8_RVT                 Core                  saed32nm_rvt_1p9m
+LSDNSSX8_RVT               Core                  saed32nm_rvt_1p9m
+LSDNX1_RVT                 Core                  saed32nm_rvt_1p9m
+LSDNX2_RVT                 Core                  saed32nm_rvt_1p9m
+LSDNX4_RVT                 Core                  saed32nm_rvt_1p9m
+LSDNX8_RVT                 Core                  saed32nm_rvt_1p9m
+LSUPENCLX1_RVT             Core                  saed32nm_rvt_1p9m
+LSUPENCLX2_RVT             Core                  saed32nm_rvt_1p9m
+LSUPENCLX4_RVT             Core                  saed32nm_rvt_1p9m
+LSUPENCLX8_RVT             Core                  saed32nm_rvt_1p9m
+LSUPENX1_RVT               Core                  saed32nm_rvt_1p9m
+LSUPENX2_RVT               Core                  saed32nm_rvt_1p9m
+LSUPENX4_RVT               Core                  saed32nm_rvt_1p9m
+LSUPENX8_RVT               Core                  saed32nm_rvt_1p9m
+LSDNENCLX4_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENCLX8_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENSSX1_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENSSX2_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENSSX4_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENSSX8_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENX1_RVT               Core                  saed32nm_rvt_1p9m
+LSDNENX2_RVT               Core                  saed32nm_rvt_1p9m
+LSDNENX4_RVT               Core                  saed32nm_rvt_1p9m
+LSDNENX8_RVT               Core                  saed32nm_rvt_1p9m
+LSDNSSX1_RVT               Core                  saed32nm_rvt_1p9m
+LSDNSSX2_RVT               Core                  saed32nm_rvt_1p9m
+LSDNSSX4_RVT               Core                  saed32nm_rvt_1p9m
+LSDNENCLSSX1_RVT           Core                  saed32nm_rvt_1p9m
+LSDNENCLSSX2_RVT           Core                  saed32nm_rvt_1p9m
+LSDNENCLSSX4_RVT           Core                  saed32nm_rvt_1p9m
+LSDNENCLSSX8_RVT           Core                  saed32nm_rvt_1p9m
+LSDNENCLX1_RVT             Core                  saed32nm_rvt_1p9m
+LSDNENCLX2_RVT             Core                  saed32nm_rvt_1p9m
+HEADX2_RVT                 Core                  saed32nm_rvt_1p9m
+HEADX32_RVT                Core                  saed32nm_rvt_1p9m
+HEADX4_RVT                 Core                  saed32nm_rvt_1p9m
+HEADX8_RVT                 Core                  saed32nm_rvt_1p9m
+FOOTX16_RVT                Core                  saed32nm_rvt_1p9m
+FOOTX2_RVT                 Core                  saed32nm_rvt_1p9m
+FOOTX32_RVT                Core                  saed32nm_rvt_1p9m
+FOOTX4_RVT                 Core                  saed32nm_rvt_1p9m
+FOOTX8_RVT                 Core                  saed32nm_rvt_1p9m
+HEAD2X16_RVT               Core                  saed32nm_rvt_1p9m
+HEAD2X2_RVT                Core                  saed32nm_rvt_1p9m
+HEAD2X32_RVT               Core                  saed32nm_rvt_1p9m
+HEAD2X4_RVT                Core                  saed32nm_rvt_1p9m
+HEAD2X8_RVT                Core                  saed32nm_rvt_1p9m
+HEADX16_RVT                Core                  saed32nm_rvt_1p9m
+FOOT2X16_RVT               Core                  saed32nm_rvt_1p9m
+FOOT2X2_RVT                Core                  saed32nm_rvt_1p9m
+FOOT2X32_RVT               Core                  saed32nm_rvt_1p9m
+FOOT2X4_RVT                Core                  saed32nm_rvt_1p9m
+FOOT2X8_RVT                Core                  saed32nm_rvt_1p9m
+LSUPX1_LVT                 Core                  saed32nm_lvt_1p9m
+LSUPX2_LVT                 Core                  saed32nm_lvt_1p9m
+LSUPX4_LVT                 Core                  saed32nm_lvt_1p9m
+LSUPX8_LVT                 Core                  saed32nm_lvt_1p9m
+LSDNSSX8_LVT               Core                  saed32nm_lvt_1p9m
+LSDNX1_LVT                 Core                  saed32nm_lvt_1p9m
+LSDNX2_LVT                 Core                  saed32nm_lvt_1p9m
+LSDNX4_LVT                 Core                  saed32nm_lvt_1p9m
+LSDNX8_LVT                 Core                  saed32nm_lvt_1p9m
+LSUPENCLX1_LVT             Core                  saed32nm_lvt_1p9m
+LSUPENCLX2_LVT             Core                  saed32nm_lvt_1p9m
+LSUPENCLX4_LVT             Core                  saed32nm_lvt_1p9m
+LSUPENCLX8_LVT             Core                  saed32nm_lvt_1p9m
+LSUPENX1_LVT               Core                  saed32nm_lvt_1p9m
+LSUPENX2_LVT               Core                  saed32nm_lvt_1p9m
+LSUPENX4_LVT               Core                  saed32nm_lvt_1p9m
+LSUPENX8_LVT               Core                  saed32nm_lvt_1p9m
+LSDNENCLX4_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENCLX8_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENSSX1_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENSSX2_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENSSX4_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENSSX8_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENX1_LVT               Core                  saed32nm_lvt_1p9m
+LSDNENX2_LVT               Core                  saed32nm_lvt_1p9m
+LSDNENX4_LVT               Core                  saed32nm_lvt_1p9m
+LSDNENX8_LVT               Core                  saed32nm_lvt_1p9m
+LSDNSSX1_LVT               Core                  saed32nm_lvt_1p9m
+LSDNSSX2_LVT               Core                  saed32nm_lvt_1p9m
+LSDNSSX4_LVT               Core                  saed32nm_lvt_1p9m
+LSDNENCLSSX1_LVT           Core                  saed32nm_lvt_1p9m
+LSDNENCLSSX2_LVT           Core                  saed32nm_lvt_1p9m
+LSDNENCLSSX4_LVT           Core                  saed32nm_lvt_1p9m
+LSDNENCLSSX8_LVT           Core                  saed32nm_lvt_1p9m
+LSDNENCLX1_LVT             Core                  saed32nm_lvt_1p9m
+LSDNENCLX2_LVT             Core                  saed32nm_lvt_1p9m
+HEADX2_LVT                 Core                  saed32nm_lvt_1p9m
+HEADX32_LVT                Core                  saed32nm_lvt_1p9m
+HEADX4_LVT                 Core                  saed32nm_lvt_1p9m
+HEADX8_LVT                 Core                  saed32nm_lvt_1p9m
+FOOTX16_LVT                Core                  saed32nm_lvt_1p9m
+FOOTX2_LVT                 Core                  saed32nm_lvt_1p9m
+FOOTX32_LVT                Core                  saed32nm_lvt_1p9m
+FOOTX4_LVT                 Core                  saed32nm_lvt_1p9m
+FOOTX8_LVT                 Core                  saed32nm_lvt_1p9m
+HEAD2X16_LVT               Core                  saed32nm_lvt_1p9m
+HEAD2X2_LVT                Core                  saed32nm_lvt_1p9m
+HEAD2X32_LVT               Core                  saed32nm_lvt_1p9m
+HEAD2X4_LVT                Core                  saed32nm_lvt_1p9m
+HEAD2X8_LVT                Core                  saed32nm_lvt_1p9m
+HEADX16_LVT                Core                  saed32nm_lvt_1p9m
+FOOT2X16_LVT               Core                  saed32nm_lvt_1p9m
+FOOT2X2_LVT                Core                  saed32nm_lvt_1p9m
+FOOT2X32_LVT               Core                  saed32nm_lvt_1p9m
+FOOT2X4_LVT                Core                  saed32nm_lvt_1p9m
+FOOT2X8_LVT                Core                  saed32nm_lvt_1p9m
+-------------------------------------------------------------------------
+
+#END_XCHECK_LOGICCELLS
+
+#BEGIN_XCHECK_PHYSICALCELLS
+
+Number of cells missing in physical library:	0 (out of 1086)
+
+#END_XCHECK_PHYSICALCELLS
+
+#BEGIN_XCHECK_PINS
+
+Number of cells with missing or mismatched pins in libraries:	1
+
+Error: List of pins mismatched in logic and physical libraries (LIBCHK-213)
+Logic library:    saed32rvt_ss0p95v125c
+Physical library: /home/user/Documents/Project/libs_saed32nm_with_sram_20July2026/libs/stdcell_rvt/milkyway/saed32nm_rvt_1p9m
+-----------------------------------------------------------------------------------
+                                          Pin direction           Pin type
+Cell name                    Pin name    Logic   Physical     Logic         Physical
+-----------------------------------------------------------------------------------
+ANTENNA_RVT                  INP         input               signal         signal
+-----------------------------------------------------------------------------------
+
+#END_XCHECK_PINS
+
+#BEGIN_XCHECK_CELLANTENNADIODETYPE
+
+Number of cells with inconsistent antenna_diode_type:	0
+
+#END_XCHECK_CELLANTENNADIODETYPE
+
+Logic vs. physical library check summary:
+Number of cells missing in logic library:	169 
+Number of cells with missing or mismatched pins in libraries:	1
+Information: Logic library is INCONSISTENT with physical library (LIBCHK-220)
+
+#END_XCHECK_LIBRARY
+
+0

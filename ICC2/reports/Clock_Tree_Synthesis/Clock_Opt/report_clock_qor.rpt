@@ -1,0 +1,53 @@
+ Info: Initializing timer in CLOCK_SYN_REPORT_MODE
+cts.compile.enable_local_skew turned off because cts.common.enable_max is true
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+Report : clock qor
+        -type summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:36:27 2026
+****************************************
+
+Attributes
+===========
+M Master Clock
+G Generated Clock
+& Internal Generated Clock
+U User Defined Skew Group
+D Default Skew Group
+* Generated Clock Balanced Separately
+
+================================================
+==== Summary Reporting for Corner ff1p16v25 ====
+================================================
+
+========================================================== Summary Table for Corner ff1p16v25 ==========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: fast_mode, Scenario: ff_scenario
+HCLK                                    M,D       900      3       26    121.48    121.48      0.08      0.05         0         0   6545.45
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        900      3       26    121.48    121.48      0.08      0.05         0         0   6545.45
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+=================================================
+==== Summary Reporting for Corner ss0p95v125 ====
+=================================================
+
+========================================================= Summary Table for Corner ss0p95v125 ==========================================================
+Clock /                               Attrs     Sinks Levels    Clock     Clock     Clock       Max    Global  Trans DRC  Cap DRC      Wire
+Skew Group                                                   Repeater  Repeater   Stdcell   Latency      Skew     Count     Count    Length
+                                                                Count      Area      Area
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+### Mode: slow_mode, Scenario: ss_scenario
+HCLK                                    M,D       900      3       26    121.48    121.48      0.25      0.15         0         0   6545.45
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+All Clocks                                        900      3       26    121.48    121.48      0.25      0.15         0         0   6545.45
+
+
+Warning: Please use -largest / -smallest / -all switches with -show_verbose_paths / -show_paths to report the clock paths. (CTS-956)
+1

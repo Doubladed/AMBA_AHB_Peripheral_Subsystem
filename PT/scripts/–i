@@ -1,0 +1,15 @@
+Error: extra positional option '–f' (CMD-012)
+Error: extra positional option 'ff_run.tcl' (CMD-012)
+Usage: /home/synopsys/prime/X-2025.06-SP2-1/linux64/syn/bin/pt_shell_exec
+        -root_path path_name   (Synopsys root path)
+        [-gui]                 (Start GUI immediately)
+        [-display display_env_value]
+                               (Set DISPLAY environment variable)
+        [-file file_name]      (Script file to exec after setup)
+        [-no_init]             (Don't load any setup files)
+        [-x command]           (Execute a command after setup)
+        [-version]             (Show product version and exit immediately)
+        [-multi_scenario]      (Initialize in multi scenario mode)
+        [-output_log_file file_name]
+                               (Output log file name)
+        [-python]              (Start tool in Python mode. Impacts -x/-file and interactive console)

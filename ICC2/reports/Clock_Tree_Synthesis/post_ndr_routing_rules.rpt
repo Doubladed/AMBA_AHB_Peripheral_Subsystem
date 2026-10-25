@@ -1,0 +1,182 @@
+Name     WidthMltplr SpacingMltplr TaperDist DriverTaperDist TaperOverPinLayers TaperUnderPinLayers DriverTaperOverPinLayers DriverTaperUnderPinLayers ParallelWireLayers
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+_snps_autoNdr_delay_1w3s
+         1           1
+
+         --------------------------------------------------------------------------------------
+         Layer     Width     ShieldWth ShieldSpc Snap2Trck RdlTaperDist RdlTaperWidth Mask
+         --------------------------------------------------------------------------------------
+
+         M1        0.05
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.05      medium    0.00      0.00
+
+         M2        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.25      medium    0.00      0.00
+
+         M3        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.55      medium    0.00      0.00
+
+         M4        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.55      medium    0.00      0.00
+
+         M5        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         1.16      medium    0.00      0.00
+
+         M6        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         1.16      medium    0.00      0.00
+
+         M7        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         2.38      medium    0.00      0.00
+
+         M8        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         2.38      medium    0.00      0.00
+
+         M9        0.16
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         4.70      medium    0.00      0.00
+
+         MRDL      2.00
+
+cts_w1_s2
+         1           1
+
+         --------------------------------------------------------------------------------------
+         Layer     Width     ShieldWth ShieldSpc Snap2Trck RdlTaperDist RdlTaperWidth Mask
+         --------------------------------------------------------------------------------------
+
+         M1        0.05
+
+         M2        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.16      hard      0.00      0.00
+
+         M3        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.45      hard      0.00      0.00
+
+         M4        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.45      hard      0.00      0.00
+
+         M5        0.06
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         1.10      hard      0.00      0.00
+
+         M6        0.06
+
+         M7        0.06
+
+         M8        0.06
+
+         M9        0.16
+
+         MRDL      2.00
+
+cts_w2_s2_vlg
+         1           1             0.40      0.40
+
+         --------------------------------------------------------------------------------------
+         Layer     Width     ShieldWth ShieldSpc Snap2Trck RdlTaperDist RdlTaperWidth Mask
+         --------------------------------------------------------------------------------------
+
+         M1        0.10
+
+         M2        0.11
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.16      hard      3.00      0.00
+
+         M3        0.11
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.45      hard      3.00      0.00
+
+         M4        0.11
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         0.45      hard      4.00      0.00
+
+         M5        0.11
+
+                   ---------------------------------------
+                   Index     Spacing   Weight    Threshold ThresholdForPG
+                   ---------------------------------------
+                   0         1.10      hard      4.00      0.00
+
+         M6        0.06
+
+         M7        0.06
+
+         M8        0.06
+
+         M9        0.16
+
+         MRDL      2.00
+
+         ---------------------------------------
+         Via Def   H Sites   V Sites   Rotation
+         ---------------------------------------
+         VIA12LG_C 1         1         both
+         VIA12LG   1         1         both
+         VIA23LG_C 1         1         both
+         VIA23LG   1         1         both
+         VIA34LG_C 1         1         both
+         VIA34LG   1         1         both
+         VIA45LG_C 1         1         both
+         VIA45LG   1         1         both
+         VIA56LG_C 1         1         both
+         VIA56LG   1         1         both
+1

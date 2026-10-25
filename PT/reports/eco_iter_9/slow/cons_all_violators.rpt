@@ -1,0 +1,25 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+	-pba_mode exhaustive
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Fri Aug 21 14:09:55 2026
+****************************************
+
+
+
+
+   max_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[18]
+                               25.00          25.06          -0.06  (VIOLATED)
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[9]
+                               25.00          25.02          -0.02  (VIOLATED)
+
+
+1

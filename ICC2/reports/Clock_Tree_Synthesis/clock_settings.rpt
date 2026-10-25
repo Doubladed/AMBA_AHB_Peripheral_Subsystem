@@ -1,0 +1,179 @@
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+****************************************
+ Report : clock settings
+ Design : ahb_peripheral_top
+ Date   : Thu Aug 20 19:34:34 2026
+****************************************
+
+
+======================================
+Configurations 
+======================================
+
+##Global
+Mode = slow_mode
+  Corner = ss0p95v125
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+Mode = fast_mode
+  Corner = ff1p16v25
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+Mode = slow_mode
+##HCLK
+  Corner = ss0p95v125
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+
+Mode = fast_mode
+##HCLK
+  Corner = ff1p16v25
+    Max transition: around 0.500 (default)
+    Max capacitance: 600.000 (default)
+    Target skew: 0 (default)
+    Target latency: Not specified
+
+
+======================================
+Routing Rules 
+======================================
+
+##Global
+Routing rule for sink nets: cts_w1_s2  Min Layer:M1 Max Layer:M5
+Routing rule for internal nets: Not specified
+Routing rule for root nets: Not specified
+Routing rule for all nets: cts_w2_s2_vlg  Min Layer:M4 Max Layer:M5
+Net-based routing rules (by set_clock_routing_rule): Not specified
+Net-based routing rules (by set_routing_rule): Not specified
+
+Mode = slow_mode
+
+##HCLK
+Routing rule for sink nets: Not specified
+Routing rule for internal nets: Not specified
+Routing rule for root nets: Not specified
+Routing rule for all nets: Not specified
+Net-based routing rules (by set_clock_routing_rule): Not specified
+Net-based routing rules (by set_routing_rule): Not specified
+
+Mode = fast_mode
+
+##HCLK
+Routing rule for sink nets: Not specified
+Routing rule for internal nets: Not specified
+Routing rule for root nets: Not specified
+Routing rule for all nets: Not specified
+Net-based routing rules (by set_clock_routing_rule): Not specified
+Net-based routing rules (by set_routing_rule): Not specified
+
+
+======================================
+Buffers and Inverters 
+======================================
+
+##Buffers
+Name                                   Area      Max Transition       Max Load
+------------------------------------------------------------------------------
+saed32hvt_base_frame_timing/NBUFFX16_HVT
+                                      6.099               1.024         82.000
+saed32hvt_base_frame_timing/NBUFFX2_HVT
+                                      2.033               1.024         16.000
+saed32hvt_base_frame_timing/NBUFFX32_HVT
+                                     10.674               1.024        168.000
+saed32hvt_base_frame_timing/NBUFFX4_HVT
+                                      2.541               1.024         32.000
+saed32hvt_base_frame_timing/NBUFFX8_HVT
+                                      3.812               1.024         64.000
+saed32lvt_base_frame_timing/NBUFFX16_LVT
+                                      6.099               1.024         82.000
+saed32lvt_base_frame_timing/NBUFFX2_LVT
+                                      2.033               1.024         16.000
+saed32lvt_base_frame_timing/NBUFFX32_LVT
+                                     10.674               1.024        168.000
+saed32lvt_base_frame_timing/NBUFFX4_LVT
+                                      2.541               1.024         32.000
+saed32lvt_base_frame_timing/NBUFFX8_LVT
+                                      3.812               1.024         64.000
+saed32rvt_base_frame_timing/NBUFFX16_RVT
+                                      6.099               1.024         82.000
+saed32rvt_base_frame_timing/NBUFFX2_RVT
+                                      2.033               1.024         16.000
+saed32rvt_base_frame_timing/NBUFFX32_RVT
+                                     10.674               1.024        168.000
+saed32rvt_base_frame_timing/NBUFFX4_RVT
+                                      2.541               1.024         32.000
+saed32rvt_base_frame_timing/NBUFFX8_RVT
+                                      3.812               1.024         64.000
+
+##Inverters
+Name                                   Area      Max Transition       Max Load
+------------------------------------------------------------------------------
+saed32hvt_base_frame_timing/INVX0_HVT
+                                      1.271               1.024          8.000
+saed32hvt_base_frame_timing/INVX16_HVT
+                                      5.083               1.024         82.000
+saed32hvt_base_frame_timing/INVX1_HVT
+                                      1.271               1.024          8.000
+saed32hvt_base_frame_timing/INVX2_HVT
+                                      1.525               1.024         16.000
+saed32hvt_base_frame_timing/INVX32_HVT
+                                      9.149               1.024        168.000
+saed32hvt_base_frame_timing/INVX4_HVT
+                                      2.033               1.024         32.000
+saed32hvt_base_frame_timing/INVX8_HVT
+                                      3.050               1.024         64.000
+saed32lvt_base_frame_timing/INVX0_LVT
+                                      1.271               1.024          8.000
+saed32lvt_base_frame_timing/INVX16_LVT
+                                      5.083               1.024         82.000
+saed32lvt_base_frame_timing/INVX1_LVT
+                                      1.271               1.024          8.000
+saed32lvt_base_frame_timing/INVX2_LVT
+                                      1.525               1.024         16.000
+saed32lvt_base_frame_timing/INVX32_LVT
+                                      9.149               1.024        168.000
+saed32lvt_base_frame_timing/INVX4_LVT
+                                      2.033               1.024         32.000
+saed32lvt_base_frame_timing/INVX8_LVT
+                                      3.050               1.024         64.000
+saed32rvt_base_frame_timing/INVX0_RVT
+                                      1.271               1.024          8.000
+saed32rvt_base_frame_timing/INVX16_RVT
+                                      5.083               1.024         82.000
+saed32rvt_base_frame_timing/INVX1_RVT
+                                      1.271               1.024          8.000
+saed32rvt_base_frame_timing/INVX2_RVT
+                                      1.525               1.024         16.000
+saed32rvt_base_frame_timing/INVX32_RVT
+                                      9.149               1.024        168.000
+saed32rvt_base_frame_timing/INVX4_RVT
+                                      2.033               1.024         32.000
+saed32rvt_base_frame_timing/INVX8_RVT
+                                      3.050               1.024         64.000
+
+
+======================================
+Spacing Rules 
+======================================
+
+##By design
+No by design spacing rule is specified
+
+##By clock
+No by clock spacing rule is specified
+
+##By libcell
+No by libcell spacing rule is specified
+
+##By clock and libcell
+No by clock and libcell spacing rule is specified
+1

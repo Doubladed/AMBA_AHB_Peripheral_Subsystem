@@ -1,0 +1,29 @@
+****************************************
+Report : qor
+        -summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:34 2026
+****************************************
+Information: The stitching and editing of coupling caps is turned OFF for design 'MYLIB:ahb_peripheral_top.design'. (TIM-125)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 4794, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 4794, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+Information: Timer using 'CRPR'. (TIM-050)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+ss_scenario        (Setup)             1.92           0.00              0
+Design             (Setup)             1.92           0.00              0
+
+ff_scenario        (Hold)              0.07           0.00              0
+Design             (Hold)              0.07           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         452673.80
+Cell Area (netlist and physical only):       452673.80
+Nets with DRC Violations:       22
+1

@@ -1,0 +1,33 @@
+****************************************
+Report : qor
+        -summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:33 2026
+****************************************
+Information: The stitching and editing of coupling caps is turned OFF for design 'MYLIB:ahb_peripheral_top.design'. (TIM-125)
+Warning: Technology layer 'MRDL' setting 'routing-direction' is not valid (NEX-001)
+Information: Design Average RC for design ahb_peripheral_top  (NEX-011)
+Information: r = 1.789291 ohm/um, via_r = 0.484813 ohm/cut, c = 0.094214 ff/um, cc = 0.000000 ff/um (X dir) (NEX-017)
+Information: r = 1.785715 ohm/um, via_r = 0.596655 ohm/cut, c = 0.116142 ff/um, cc = 0.000000 ff/um (Y dir) (NEX-017)
+Information: The RC mode used is VR for design 'ahb_peripheral_top'. (NEX-022)
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 4794, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 4794, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+ss_scenario        (Setup)             0.92           0.00              0
+Design             (Setup)             0.92           0.00              0
+
+ff_scenario        (Hold)              0.07           0.00              0
+Design             (Hold)              0.07           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         452673.80
+Cell Area (netlist and physical only):       452673.80
+Nets with DRC Violations:       22
+1

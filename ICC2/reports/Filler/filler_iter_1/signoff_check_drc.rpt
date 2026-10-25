@@ -1,0 +1,9 @@
+Error: IC Validator executable cannot be found. (RT-120)
+Warning: Attribute 'technology_node' does not exist on block MYLIB:filler_precheck_1.design (ATTR-3)
+Error: IC Validator executable cannot be found. (RT-120)
+Warning: Unsupported ICV version for heat map generation. Please upgrade ICV to 2019.06 version or later.
+Warning: Continuing signoff_check_drc run without heat map generation.Name /home/user/Documents/Project/ICC2/reports/Filler/filler_iter_1/icv_drc_run/_icv.started End /home/user/Documents/Project/ICC2/reports/Filler/filler_iter_1/icv_drc_run/_icv.finished Value1 0 Value2 0
+Error: Unable to retrieve ICV version info...
+ICV version query result....
+sh: icv: command not found
+Error: Could not find ICV binary path or version.

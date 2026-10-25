@@ -1,0 +1,8 @@
+****************************************
+ Report : clock routing rules
+ Design : ahb_peripheral_top
+ Date   : Thu Aug 20 19:34:34 2026
+****************************************
+   Design Base; Net Type: all;      Rule: cts_w2_s2_vlg; Min Layer: M4; Max Layer: M5
+   Design Base; Net Type: sink;     Rule: cts_w1_s2; Min Layer: M1; Max Layer: M5
+

@@ -1,0 +1,348 @@
+Information: The command 'check_routes' cleared the undo history. (UNDO-016)
+INFO: wire-opt feature for router enabled
+INFO: wire-opt feature for router enabled
+Warning: Layer MRDL does not have a preferred direction, assigning to vertical. (ZRT-025)
+Cell Min-Routing-Layer = M1
+Cell Max-Routing-Layer = M9
+Found antenna rule mode 4, diode mode 2:
+	layer M1:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M2:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M3:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M4:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M5:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M6:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M7:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M8:  max ratio 1000, diode ratio {0.06 0 400 40000} 
+	layer M9:  max ratio 1000, diode ratio {0.06 0 8000 50000} 
+	layer MRDL:  max ratio 1000, diode ratio {0 0 1 0 0} 
+	layer CO: , diode ratio {0 0 1 0 0} 
+	layer VIA1:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA2:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA3:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA4:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA5:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA6:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA7:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIA8:  max ratio 20, diode ratio {0.06 0 200 1000} 
+	layer VIARDL:  max ratio 20, diode ratio {0 0 1 0 0} 
+Information: Option route.detail.force_end_on_preferred_grid will be ignored since none of the layers have preferred grid. (ZRT-703)
+Warning: Cannot find a default contact code for layer CO. (ZRT-022)
+Info: number of net_type_blockage: 0 
+Information: Via ladder engine would be activated for pattern must join connection in certain commands. Please refer to man-page for the command list. (ZRT-619)
+Information: AutoNdr rule can't be found. Check the settings.
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 5.32 outside the layer range. (ZRT-707)
+Information: When applicable Min-max layer allow_pin_connection mode will allow paths of length 5.32 outside the layer range on clock nets. (ZRT-718)
+Information: When applicable layer based tapering will taper up to 0.00 in distance from the pin. (ZRT-706)
+Hier-ant-prop: new = 1, old = 0
+Warning: Standard cell pin MUX41X2_HVT/S0 has no valid via regions. (ZRT-044)
+
+
+Start checking for open nets ... 
+
+Total number of nets = 4719, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+
+Check 4719 nets, 0 have Errors
+
+[CHECK OPEN NETS] Elapsed real time: 0:00:00 
+[CHECK OPEN NETS] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[CHECK OPEN NETS] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[CHECK OPEN NETS] Total (MB): Used    0  Alloctr    0  Proc 7144 
+Printing options for 'route.common.*'
+common.eco_route_fix_existing_drc                       :	 true                
+common.verbose_level                                    :	 0                   
+
+Printing options for 'route.detail.*'
+detail.antenna                                          :	 true                
+detail.eco_route_use_soft_spacing_for_timing_optimization:	 true                
+detail.enable_auto_ndr_flow                             :	 true                
+detail.timing_driven                                    :	 false               
+
+Printing options for 'route.auto_via_ladder.*'
+
+There are 0 out of total 4719 nets with relaxed min layer from GR.
+*****Start reporting antenna related parameters*****
+  Antenna/diode mode:
+    Antenna mode 4; diode mode 2
+      Metal lay (M1)0; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA1)1; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M2)1; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA2)2; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M3)2; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA3)3; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M4)3; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA4)4; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M5)4; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA5)5; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M6)5; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA6)6; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M7)6; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA7)7; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M8)7; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 400.000 40000.000 0.000)
+      Cut lay (VIA8)8; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 200.000 1000.000 0.000)
+      Metal lay (M9)8; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.060 0.000 8000.000 50000.000 0.000)
+      Cut lay (VIARDL)9; maxRatio 20.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.000 0.000 1.000 0.000 0.000)
+      Metal lay (MRDL)9; maxRatio 1000.000 maxPRatio 2147483648.000 maxNRatio 2147483648.000; vector (0.000 0.000 1.000 0.000 0.000)
+  Top lay antenna ratio fix threshold == -1
+  Antenna max pin count threshold == -1
+  Check PG net == false
+  MergeGate == true
+  Break antenna to port mode == float
+  Break antenna to macro pin mode == normal
+*****End reporting antenna related parameters*****
+Warning: Skipping antenna analysis for net HCLK. The pin HCLK on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HRESETn. The pin HRESETn on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[31]. The pin HADDR[31] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[30]. The pin HADDR[30] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[29]. The pin HADDR[29] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[28]. The pin HADDR[28] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[27]. The pin HADDR[27] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[26]. The pin HADDR[26] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[25]. The pin HADDR[25] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[24]. The pin HADDR[24] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[23]. The pin HADDR[23] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[22]. The pin HADDR[22] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[21]. The pin HADDR[21] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[20]. The pin HADDR[20] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[19]. The pin HADDR[19] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[18]. The pin HADDR[18] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[17]. The pin HADDR[17] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[16]. The pin HADDR[16] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[15]. The pin HADDR[15] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[14]. The pin HADDR[14] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[13]. The pin HADDR[13] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[12]. The pin HADDR[12] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[11]. The pin HADDR[11] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[10]. The pin HADDR[10] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[9]. The pin HADDR[9] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[8]. The pin HADDR[8] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[7]. The pin HADDR[7] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[6]. The pin HADDR[6] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[5]. The pin HADDR[5] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[4]. The pin HADDR[4] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[3]. The pin HADDR[3] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[2]. The pin HADDR[2] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[1]. The pin HADDR[1] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HADDR[0]. The pin HADDR[0] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[31]. The pin HWDATA[31] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[30]. The pin HWDATA[30] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[29]. The pin HWDATA[29] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[28]. The pin HWDATA[28] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[27]. The pin HWDATA[27] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[26]. The pin HWDATA[26] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[25]. The pin HWDATA[25] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[24]. The pin HWDATA[24] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[23]. The pin HWDATA[23] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[22]. The pin HWDATA[22] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[21]. The pin HWDATA[21] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[20]. The pin HWDATA[20] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[19]. The pin HWDATA[19] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[18]. The pin HWDATA[18] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[17]. The pin HWDATA[17] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[16]. The pin HWDATA[16] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[15]. The pin HWDATA[15] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[14]. The pin HWDATA[14] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[13]. The pin HWDATA[13] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[12]. The pin HWDATA[12] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[11]. The pin HWDATA[11] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[10]. The pin HWDATA[10] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[9]. The pin HWDATA[9] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[8]. The pin HWDATA[8] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[7]. The pin HWDATA[7] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[6]. The pin HWDATA[6] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[5]. The pin HWDATA[5] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[4]. The pin HWDATA[4] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[3]. The pin HWDATA[3] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[2]. The pin HWDATA[2] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[1]. The pin HWDATA[1] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWDATA[0]. The pin HWDATA[0] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWSTRB[3]. The pin HWSTRB[3] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWSTRB[2]. The pin HWSTRB[2] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWSTRB[1]. The pin HWSTRB[1] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWSTRB[0]. The pin HWSTRB[0] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HWRITE. The pin HWRITE on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net HTRANS[1]. The pin HTRANS[1] on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net UART_Rx. The pin UART_Rx on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net SPI_MISO. The pin SPI_MISO on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net I2C_SDA. The pin I2C_SDA on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Warning: Skipping antenna analysis for net I2C_SCL. The pin I2C_SCL on cell ahb_peripheral_top does not have enough gate area information. (ZRT-311)
+Skipping antenna analysis for 76 nets as they don't have enough gate area info.
+
+Begin full DRC check ...
+
+Information: Using 4 threads for routing. (ZRT-444)
+Checked	41/144 Partitions, Violations =	0
+Checked	42/144 Partitions, Violations =	0
+Checked	43/144 Partitions, Violations =	0
+Checked	44/144 Partitions, Violations =	0
+Checked	45/144 Partitions, Violations =	0
+Checked	46/144 Partitions, Violations =	0
+Checked	47/144 Partitions, Violations =	0
+Checked	48/144 Partitions, Violations =	0
+Checked	49/144 Partitions, Violations =	0
+Checked	50/144 Partitions, Violations =	0
+Checked	51/144 Partitions, Violations =	0
+Checked	55/144 Partitions, Violations =	0
+Checked	60/144 Partitions, Violations =	0
+Checked	65/144 Partitions, Violations =	0
+Checked	70/144 Partitions, Violations =	0
+Checked	75/144 Partitions, Violations =	0
+Checked	80/144 Partitions, Violations =	0
+Checked	85/144 Partitions, Violations =	0
+Checked	90/144 Partitions, Violations =	0
+Checked	95/144 Partitions, Violations =	0
+Checked	100/144 Partitions, Violations =	0
+Checked	105/144 Partitions, Violations =	0
+Checked	110/144 Partitions, Violations =	0
+Checked	115/144 Partitions, Violations =	0
+Checked	120/144 Partitions, Violations =	0
+Checked	125/144 Partitions, Violations =	0
+Checked	130/144 Partitions, Violations =	0
+Checked	135/144 Partitions, Violations =	0
+Checked	140/144 Partitions, Violations =	0
+[DRC CHECK] Elapsed real time: 0:00:01 
+[DRC CHECK] Elapsed cpu  time: sys=0:00:00 usr=0:00:02 total=0:00:02
+[DRC CHECK] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[DRC CHECK] Total (MB): Used    0  Alloctr    0  Proc 7144 
+Start net based rule analysis
+Found 0 antenna instance ports
+End net based rule analysis
+[Antenna analysis] Elapsed real time: 0:00:00 
+[Antenna analysis] Elapsed cpu  time: sys=0:00:00 usr=0:00:00 total=0:00:00
+[Antenna analysis] Stage (MB): Used    0  Alloctr    0  Proc    0 
+[Antenna analysis] Total (MB): Used    0  Alloctr    0  Proc 7144 
+
+DRC-SUMMARY:
+	@@@@@@@ TOTAL VIOLATIONS =	0
+
+Information: The app option "route.detail.report_soft_drc_separately" will be on-by-default in future release. (ZRT-807)
+	@@@@@@@ TOTAL SOFT VIOLATIONS =	0
+
+
+Total Wire Length =                    298659 micron
+Total Number of Contacts =             38021
+Total Number of Wires =                38360
+Total Number of PtConns =              5490
+Total Number of Routed Wires =       38350
+Total Routed Wire Length =           298016 micron
+Total Number of Routed Contacts =       38021
+	Layer                 M1 :      35301 micron
+	Layer                 M2 :      92052 micron
+	Layer                 M3 :      64133 micron
+	Layer                 M4 :      52083 micron
+	Layer                 M5 :      29018 micron
+	Layer                 M6 :      19412 micron
+	Layer                 M7 :       3224 micron
+	Layer                 M8 :       2785 micron
+	Layer                 M9 :          9 micron
+	Layer               MRDL :          0 micron
+	Via         VIA89_C(rot) :          4
+	Via            VIA78SQ_C :         68
+	Via        VIA78SQ_C_2x1 :          2
+	Via       VIA67SQ_C(rot) :        134
+	Via            VIA56SQ_C :        530
+	Via       VIA45SQ_C(rot) :       1506
+	Via            VIA45LG_C :         18
+	Via            VIA34SQ_C :       3649
+	Via       VIA34SQ_C(rot) :         13
+	Via            VIA23SQ_C :        165
+	Via       VIA23SQ_C(rot) :      16180
+	Via            VIA12SQ_C :      15149
+	Via       VIA12SQ_C(rot) :        579
+	Via        VIA12SQ_C_2x1 :          9
+	Via   VIA12SQ_C(rot)_2x1 :          2
+	Via        VIA12SQ_C_1x2 :          4
+	Via          VIA12SQ_2x1 :          1
+	Via     VIA12SQ(rot)_2x1 :          7
+	Via          VIA12SQ_1x2 :          1
+
+ 
+Redundant via conversion report:
+--------------------------------
+
+  Total optimized via conversion rate =  0.07% (26 / 38021 vias)
+ 
+    Layer VIA1       =  0.15% (24     / 15752   vias)
+        Weight 1     =  0.15% (24      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.85% (15728   vias)
+    Layer VIA2       =  0.00% (0      / 16345   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (16345   vias)
+    Layer VIA3       =  0.00% (0      / 3662    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (3662    vias)
+    Layer VIA4       =  0.00% (0      / 1524    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1524    vias)
+    Layer VIA5       =  0.00% (0      / 530     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (530     vias)
+    Layer VIA6       =  0.00% (0      / 134     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (134     vias)
+    Layer VIA7       =  2.86% (2      / 70      vias)
+        Weight 1     =  2.86% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 97.14% (68      vias)
+    Layer VIA8       =  0.00% (0      / 4       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (4       vias)
+ 
+  Total double via conversion rate    =  0.07% (26 / 38021 vias)
+ 
+    Layer VIA1       =  0.15% (24     / 15752   vias)
+    Layer VIA2       =  0.00% (0      / 16345   vias)
+    Layer VIA3       =  0.00% (0      / 3662    vias)
+    Layer VIA4       =  0.00% (0      / 1524    vias)
+    Layer VIA5       =  0.00% (0      / 530     vias)
+    Layer VIA6       =  0.00% (0      / 134     vias)
+    Layer VIA7       =  2.86% (2      / 70      vias)
+    Layer VIA8       =  0.00% (0      / 4       vias)
+ 
+  The optimized via conversion rate based on total routed via count =  0.07% (26 / 38021 vias)
+ 
+    Layer VIA1       =  0.15% (24     / 15752   vias)
+        Weight 1     =  0.15% (24      vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 99.85% (15728   vias)
+    Layer VIA2       =  0.00% (0      / 16345   vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (16345   vias)
+    Layer VIA3       =  0.00% (0      / 3662    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (3662    vias)
+    Layer VIA4       =  0.00% (0      / 1524    vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (1524    vias)
+    Layer VIA5       =  0.00% (0      / 530     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (530     vias)
+    Layer VIA6       =  0.00% (0      / 134     vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (134     vias)
+    Layer VIA7       =  2.86% (2      / 70      vias)
+        Weight 1     =  2.86% (2       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 97.14% (68      vias)
+    Layer VIA8       =  0.00% (0      / 4       vias)
+        Un-optimized =  0.00% (0       vias)
+        Un-mapped    = 100.00% (4       vias)
+ 
+
+
+Verify Summary:
+
+Total number of nets = 4719, of which 0 are not extracted
+Total number of open nets = 0, of which 0 are frozen
+Total number of excluded ports = 0 ports of 0 unplaced cells connected to 0 nets
+                                 0 ports without pins of 0 cells connected to 0 nets
+                                 0 ports of 0 cover cells connected to 0 non-pg nets
+
+Total number of DRCs = 0
+Total number of antenna violations = 0
+Total number of tie to rail violations = not checked
+Total number of tie to rail directly violations = not checked
+
+Total number of DRCs on M3 and below = 0
+

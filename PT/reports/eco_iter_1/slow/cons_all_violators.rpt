@@ -1,0 +1,42 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+	-pba_mode exhaustive
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:51:43 2026
+****************************************
+
+
+
+
+   max_capacitance
+
+                             Required        Actual
+   Pin                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   ropt_mc_inst_3014/Y         32.00          35.07          -3.07  (VIOLATED)
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[28]
+                               25.00          27.73          -2.73  (VIOLATED)
+   HADDR[9]                     1.43           3.44          -2.01  (VIOLATED)
+   HADDR[28]                    1.43           3.29          -1.86  (VIOLATED)
+   HADDR[7]                     1.43           3.00          -1.57  (VIOLATED)
+   HADDR[10]                    1.43           2.98          -1.54  (VIOLATED)
+   ropt_mc_inst_3017/Y         32.00          33.50          -1.50  (VIOLATED)
+   HADDR[19]                    1.43           2.76          -1.32  (VIOLATED)
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[26]
+                               25.00          26.28          -1.28  (VIOLATED)
+   ZCTSBUF_7909_1999/Y         32.00          32.05          -0.05  (VIOLATED)
+   U4788/Y                      8.00           8.05          -0.05  (VIOLATED)
+   AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_addr_reg_5_/Q
+                                8.00           8.04          -0.04  (VIOLATED)
+   AHB_UART_WRAPPER_UART_CONTROLLER_u_rx_module_STATE_reg_1_/Q
+                                8.00           8.04          -0.04  (VIOLATED)
+   HWDATA[26]                   1.43           1.46          -0.03  (VIOLATED)
+   AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_addr_reg_2_/Q
+                                8.00           8.02          -0.02  (VIOLATED)
+   ZBUF_2_inst_2850/Y          32.00          32.00           0.00  (VIOLATED: increase significant digits)
+
+
+1

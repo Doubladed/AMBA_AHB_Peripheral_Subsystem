@@ -1,0 +1,18 @@
+Warning: The congestion map is out dated. Specify -rerun_global_router option to regenerate one.
+
+Warning: Layer MRDL does not have a preferred direction, skipped.
+****************************************
+Report : congestion
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:33 2026
+****************************************
+
+Layer     |    overflow     |              # GRCs has
+Name      |  total  |  max  | overflow (%)      | max overflow
+---------------------------------------------------------------
+Both Dirs |      86 |    18 |      41  ( 0.01%) |       1
+H routing |      31 |     2 |      29  ( 0.01%) |       2
+V routing |      55 |    18 |      12  ( 0.01%) |       1
+
+1

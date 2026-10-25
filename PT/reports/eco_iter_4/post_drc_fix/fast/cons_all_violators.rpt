@@ -1,0 +1,14 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+	-pba_mode exhaustive
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Fri Aug 21 00:52:56 2026
+****************************************
+
+
+
+
+1

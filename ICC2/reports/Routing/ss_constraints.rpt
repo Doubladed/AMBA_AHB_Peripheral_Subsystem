@@ -1,0 +1,121 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:37:10 2026
+****************************************
+
+   late_timing
+   -----------
+
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Warning: Scenario ss_scenario is not configured for hold analysis: skipping. (UIC-058)
+Warning: None of the specified scenarios are active for hold analysis. (UIC-057)
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   aps_rename_33_               0.13           0.12           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   ropt_net_614                32.00          35.07          -3.07  (VIOLATED) 
+     PIN : ropt_mc_inst_3014/Y
+                               32.00          35.07          -3.07  (VIOLATED) 
+
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_sram0_rdata[28]
+                               25.00          27.73          -2.73  (VIOLATED) 
+     PIN : AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[28]
+                               25.00          27.73          -2.73  (VIOLATED) 
+
+   HADDR[9]                     1.43           3.44          -2.01  (VIOLATED) 
+     PORT: HADDR[9]             1.43           3.44          -2.01  (VIOLATED) 
+
+   HADDR[28]                    1.43           3.29          -1.86  (VIOLATED) 
+     PORT: HADDR[28]            1.43           3.29          -1.86  (VIOLATED) 
+
+   HADDR[7]                     1.43           3.00          -1.57  (VIOLATED) 
+     PORT: HADDR[7]             1.43           3.00          -1.57  (VIOLATED) 
+
+   HADDR[10]                    1.43           2.98          -1.54  (VIOLATED) 
+     PORT: HADDR[10]            1.43           2.98          -1.54  (VIOLATED) 
+
+   ropt_net_617                32.00          33.50          -1.50  (VIOLATED) 
+     PIN : ropt_mc_inst_3017/Y
+                               32.00          33.50          -1.50  (VIOLATED) 
+
+   HADDR[19]                    1.43           2.76          -1.32  (VIOLATED) 
+     PORT: HADDR[19]            1.43           2.76          -1.32  (VIOLATED) 
+
+   AHB_SRAM_WRAPPER_SRAM_CONTROLLER_sram0_rdata[26]
+                               25.00          26.28          -1.28  (VIOLATED) 
+     PIN : AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM0/O[26]
+                               25.00          26.28          -1.28  (VIOLATED) 
+
+   ZCTSNET_19                  32.00          32.05          -0.05  (VIOLATED) 
+     PIN : ZCTSBUF_7909_1999/Y
+                               32.00          32.05          -0.05  (VIOLATED) 
+
+   n5150                        8.00           8.05          -0.05  (VIOLATED) 
+     PIN : U4788/Y              8.00           8.05          -0.05  (VIOLATED) 
+
+   AHB_SRAM_WRAPPER_sl_addr[5]
+                                8.00           8.04          -0.04  (VIOLATED) 
+     PIN : AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_addr_reg_5_/Q
+                                8.00           8.04          -0.04  (VIOLATED) 
+
+   AHB_UART_WRAPPER_UART_CONTROLLER_u_rx_module_STATE[1]
+                                8.00           8.04          -0.04  (VIOLATED) 
+     PIN : AHB_UART_WRAPPER_UART_CONTROLLER_u_rx_module_STATE_reg_1_/Q
+                                8.00           8.04          -0.04  (VIOLATED) 
+
+   HWDATA[26]                   1.43           1.46          -0.03  (VIOLATED) 
+     PORT: HWDATA[26]           1.43           1.46          -0.03  (VIOLATED) 
+
+   n5282                        8.00           8.02          -0.02  (VIOLATED) 
+     PIN : AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_addr_reg_2_/Q
+                                8.00           8.02          -0.02  (VIOLATED) 
+
+   ZBUF_2_39                   32.00          32.00          -0.00  (VIOLATED) 
+     PIN : ZBUF_2_inst_2850/Y
+                               32.00          32.00          -0.00  (VIOLATED) 
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 16
+
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: slow_mode
+  Corner: ss0p95v125
+  Scenario: ss_scenario
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 16
+1

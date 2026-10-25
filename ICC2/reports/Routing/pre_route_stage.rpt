@@ -1,0 +1,49 @@
+****************************************
+ Report : check_design 
+ Options: { pre_route_stage }
+ Design : ahb_peripheral_top
+ Version: X-2025.06-SP1-707
+ Date   : Thu Aug 20 19:36:27 2026
+****************************************
+
+Running mega-check 'pre_route_stage': 
+    Running atomic-check 'design_mismatch'
+    Running atomic-check 'scan_chain'
+    Running atomic-check 'mv_design'
+    Running atomic-check 'timing'
+    Running atomic-check 'routability'
+    Running atomic-check 'hier_pre_route'
+
+  *** EMS Message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  DFT-011      Info   1          The design has no scan chain defined in the scandef.
+  TCK-001      Warn   1768       The reported endpoint '%endpoint' is unconstrained. Reason: '%re...
+  TCK-012      Warn   2          The input port '%port' has no clock_relative delay specified. Mo...
+  ----------------------------------------------------------------------------------------------------
+  Total 1771 EMS messages : 0 errors, 1770 warnings, 1 info.
+  ----------------------------------------------------------------------------------------------------
+
+  *** Non-EMS message summary ***
+  ----------------------------------------------------------------------------------------------------
+  Rule         Type   Count      Message
+  ----------------------------------------------------------------------------------------------------
+  ZRT-022      Warn   1          Cannot find a default contact code for layer %s.
+  ZRT-025      Warn   1          Layer %s does not have a preferred direction, assigning to %s.
+  ZRT-044      Warn   1          Standard cell pin %s/%s has no valid via regions.
+  ZRT-619      Info   1          Via ladder engine would be activated for pattern must join conne...
+  ZRT-703      Info   1          Option route.detail.force_end_on_preferred_grid will be ignored ...
+  ZRT-706      Info   1          When applicable layer based tapering will taper up to %.2f in di...
+  ZRT-707      Info   1          When applicable Min-max layer allow_pin_connection mode will all...
+  ZRT-718      Info   1          When applicable Min-max layer allow_pin_connection mode will all...
+  ZRT-761      Warn   3          pin is off track in the region (%.4f %.4f) (%.4f %.4f) on layer %s.
+  ----------------------------------------------------------------------------------------------------
+  Total 11 non-EMS messages : 0 errors, 6 warnings, 5 info.
+  ----------------------------------------------------------------------------------------------------
+
+Warning: EMS database "check_design.ems" already exists, over-writing it. (EMS-040)
+
+Information: EMS database is saved to file 'check_design.ems'.
+Information: Non-EMS messages are saved into file 'check_design2026Aug20193627.log'.
+1

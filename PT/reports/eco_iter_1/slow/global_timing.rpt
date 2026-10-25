@@ -1,0 +1,13 @@
+****************************************
+Report : global_timing
+	-format { narrow }
+	-pba_mode exhaustive
+Design : ahb_peripheral_top
+Version: X-2025.06-SP2-1
+Date   : Thu Aug 20 19:51:43 2026
+****************************************
+
+No setup violations found.
+
+No hold violations found.
+1

@@ -1,0 +1,35 @@
+Warning: Detected pins or ports without physical pin shapes. The first few such pins or ports are: HRESETn, HADDR[28], HADDR[24], HADDR[20], HADDR[16]. (DPPA-325)
+Warning: Detected pins or ports without physical pin shapes. The first few such pins or ports are: HADDR[30], HADDR[26], HADDR[22], HADDR[18], HADDR[14]. (DPPA-325)
+Warning: Detected pins or ports without physical pin shapes. The first few such pins or ports are: HADDR[31], HADDR[27], HADDR[23], HADDR[19], HADDR[15]. (DPPA-325)
+Warning: Detected pins or ports without physical pin shapes. The first few such pins or ports are: HCLK, HADDR[29], HADDR[25], HADDR[21], HADDR[17]. (DPPA-325)
+****************************************
+Report : qor
+        -summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 14:26:34 2026
+****************************************
+Information: The stitching and editing of coupling caps is turned OFF for design 'MYLIB:ahb_peripheral_top.design'. (TIM-125)
+Warning: No physical information exists for design 'ahb_peripheral_top'. Zero interconnect delay is used in timing analysis. (TIM-101)
+Warning: The extractor can not be initialized for design 'ahb_peripheral_top'. Zero interconnect delay is used in timing analysis. (TIM-102)
+Warning: Batch extraction is skipped for block "ahb_peripheral_top"
+Information: Update timing completed net estimation for all the timing graph nets (TIM-111)
+Information: Net estimation statistics: timing graph nets = 4718, routed nets = 0, across physical hierarchy nets = 0, parasitics cached nets = 0, delay annotated nets = 0, parasitics annotated nets = 0, multi-voltage nets = 0. (TIM-112)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+ss_scenario        (Setup)             1.63           0.00              0
+Design             (Setup)             1.63           0.00              0
+
+ff_scenario        (Hold)              0.04           0.00              0
+Design             (Hold)              0.04           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         452424.99
+Cell Area (netlist and physical only):       452424.99
+Nets with DRC Violations:        2
+1

@@ -1,0 +1,109 @@
+Information: The value of option cts.compile.enable_cell_relocation has been overridden to "leaf_only" to support latency-driven placement. (CTS-973)
+Information: CTS will work on the following scenarios. (CTS-101)
+   ff_scenario	(Mode: fast_mode; Corner: ff1p16v25)
+Information: CTS will work on the following clocks. (CTS-102)
+  HCLK	(Mode: fast_mode)
+Output units used in this log:
+   Time        : 1.00ns
+   Resistance  : 1.00MOhm
+   Capacitance : 1.00fF
+   Power       : 1.00pW
+   Length      : 1.00um
+Information: Clock derating is disabled
+
+CTS related app options set by user:
+   No CTS related app option is set.
+
+
+Start Auto-Exception Derivations ...
+ No internal pin was found.
+ No conflict pin was found.
+Warning: Technology layer 'MRDL' setting 'routing-direction' is not valid (NEX-001)
+Skip checking the lib cells with low pass rates since analyze_lib_cell_placement does not calculate a pass rate for any buffer/inverter lib cell.
+****************************************
+Report : check_clock_tree
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:35 2026
+****************************************
+
+=================================================
+Summary
+=================================================
+
+Tag           Count     Solution  Description
+--------------------------------------------------------------------------------
+
+---------------------------------------------
+       Clock Definitions & Propagation
+---------------------------------------------
+CTS-002       0         None      There are active CTS scenarios with no clock definition.
+CTS-004       0         None      There are generated clocks that cannot be reached by their master clock.
+CTS-005       0         None      Generated clocks defined on bidirectional pins
+CTS-019       0         None      Clocks propagate to output ports
+CTS-905       0         None      There are clocks with no sinks
+CTS-906       0         None      There are sinks with no clock
+CTS-907       0         None      There are disabled timing arcs in the clock network
+
+---------------------------------------------
+               Reference Cells
+---------------------------------------------
+CTS-007       0         None      Failed to specify any clock buffers or inverters for CTS
+CTS-008       0         None      Clock reference cells have dont_touch or dont_use
+CTS-903       0         None      Cells instantiated in the clock network are not in the clock reference list
+CTS-904       4         None      Some clock reference cells have no LEQ cell specified for resizing
+CTS-077       0         None      The lib cells of low pass rates.
+
+---------------------------------------------
+               Skew Balancing
+---------------------------------------------
+CTS-006       0         None      Balancing conflicts exist between different clocks
+CTS-075       0         None      Explicit ignore pins have been collected by auto-exception.
+CTS-009       0         None      Cell instances in the clock tree have multiple conditional delay arcs between the same pins
+CTS-908       0         None      Large phase delay in abstracted sub-blocks
+CTS-910       0         None      Balance point constraints are defined downstream of another balance point or ignore point constraint
+CTS-911       0         None      Clock pins downstream of a balance point or ignore point have been added to a skew group
+CTS-913       0         None      Explicit ignore points have been added to a skew group, and will not be balanced
+CTS-917       0         None      Implicit ignore points have been added to a skew group, and will be balanced
+CTS-967       0         None      %s is sink for generated clock %s but pass through for master clock.
+CTS-074       0         None      The delay values of balance point at term '%s' and corner '%s' are wrong.
+
+---------------------------------------------
+                Multi-Voltage
+---------------------------------------------
+CTS-901       0         None      Clock nets have MV violations
+CTS-902       0         None      No AON (always-on) buffers or inverters available for CTS
+CTS-918       0         None      Voltage area blocked for buffering.
+
+---------------------------------------------
+    Capacitance & Transition Constraints
+---------------------------------------------
+CTS-909       0         None      set_load constraints detected in the clock tree
+CTS-912       0         None      set_load constraints on output clock ports exceed the max capacitance limit
+CTS-914       0         None      set_input_transition on clock ports exceeds the max transition limit
+CTS-915       0         None      Excessively small max capacitance constraints in the clock network
+CTS-916       0         None      Excessively small max transition constraints in the clock network
+
+---------------------------------------------
+                Other issues
+---------------------------------------------
+CTS-012       0         None      Nets in the clock network have a dont_touch constraint
+CTS-013       0         None      Cells in the clock network have a dont_touch constraint
+CTS-015       0         None      set_max_delay or set_min_delay constraints are defined in the clock network
+CTS-032       0         None      There are fixed routing shapes on the net '%s', so the  dont_touch flag is set on this net to prevent buffering.
+CTS-900       0         None      Clock routing rules are outside of allowable layers
+CTS-076       0         None      The restriction reason at a hier pin. This may cause qor problems.
+=================================================
+                     Details
+=================================================
+
+---------------------------------------------------------------------------------------
+Warning: Some clock reference cells have no LEQ cell specified for resizing (CTS-904)
+---------------------------------------------------------------------------------------
+Check         Lib cell                                                 Example Instance
+---------------------------------------------------------------------------------------
+CTS-904       SRAM1RW256x32/SRAM1RW256x32                              AHB_SRAM_WRAPPER_SRAM_CONTROLLER_SRAM15
+CTS-904       saed32hvt_base_frame_timing/DFFARX1_HVT                  AHB_SRAM_WRAPPER_AHB_SRAM_SUB_sl_addr_reg_0_
+CTS-904       saed32hvt_base_frame_timing/DFFARX2_HVT                  AHB_UART_WRAPPER_UART_CONTROLLER_u_tx_module_STATE_reg_2_
+CTS-904       saed32hvt_base_frame_timing/DFFASX1_HVT                  AHB_SRAM_WRAPPER_AHB_SRAM_SUB_HREADYOUT_reg
+1

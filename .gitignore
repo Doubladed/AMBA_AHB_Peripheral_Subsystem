@@ -1,0 +1,36 @@
+# Original local note; the portfolio entry point is README.md.
+/README.txt
+
+# Compiled simulation builds and waveform databases (screenshots stay visible).
+**/csrc/
+**/simv
+**/simv.daidir/
+**/DVEfiles/
+**/AN.DB/
+**/work/
+*.vpd
+*.vcd
+*.fsdb
+ucli.key
+*.o
+*.so
+
+# Tool working databases and caches; keep scripts and readable reports.
+/ICC2/MYLIB/
+/ICC2/work_dir/
+/ICC2/pna_output/
+**/alib-*/
+*.svf
+*.ems
+*.log
+
+# Desktop/editor leftovers.
+Thumbs.db
+.DS_Store
+*~
+
+# Keep the supplied PDK and standard-cell libraries, including their contents.
+!/libs_saed32nm_with_sram_20July2026/**/
+!/libs_saed32nm_with_sram_20July2026/**
+!/SAED_RTL/**/
+!/SAED_RTL/**

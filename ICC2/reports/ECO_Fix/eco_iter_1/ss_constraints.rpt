@@ -1,0 +1,70 @@
+****************************************
+Report : constraint
+        -all_violators
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:56:00 2026
+****************************************
+
+   late_timing
+   -----------
+
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   early_timing
+   -----------
+
+Warning: Scenario ss_scenario is not configured for hold analysis: skipping. (UIC-058)
+Warning: None of the specified scenarios are active for hold analysis. (UIC-057)
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+Endpoint                         Path Delay     Path Required       CRP    Slack Group    Scenario
+----------------------------------------------------------------------------------------------------------
+No paths.
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+   max_transition                                                              
+                             Required        Actual                            
+   Net                      Transition     Transition        Slack  Violation  
+  ---------------------------------------------------------------------------
+   aps_rename_33_               0.13           0.12           0.01  (MET)      
+
+  ---------------------------------------------------------------------------
+   Number of max_transition violation(s): 0
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+   max_capacitance                                                             
+                             Required        Actual                            
+   Net                      Capacitance    Capacitance       Slack  Violation  
+  ---------------------------------------------------------------------------
+   ZCTSNET_19                  32.00          32.05          -0.05  (VIOLATED) 
+     PIN : ZCTSBUF_7909_1999/Y
+                               32.00          32.05          -0.05  (VIOLATED) 
+
+   n3112                        8.00           8.05          -0.05  (VIOLATED) 
+     PIN : U3415/Y              8.00           8.05          -0.05  (VIOLATED) 
+
+   HADDR[20]                    1.43           1.44          -0.01  (VIOLATED) 
+     PORT: HADDR[20]            1.43           1.44          -0.01  (VIOLATED) 
+
+  ---------------------------------------------------------------------------
+   Number of max_capacitance violation(s): 3
+
+
+   Mode: slow_mode Corner: ss0p95v125
+   Scenario: ss_scenario
+  ---------------------------------------------------------------------------
+   Number of min_capacitance violation(s): 0
+
+  Mode: slow_mode
+  Corner: ss0p95v125
+  Scenario: ss_scenario
+
+  ---------------------------------------------------------------------------
+   Number of min_pulse_width violation(s): 0
+   Total number of violation(s): 3
+1

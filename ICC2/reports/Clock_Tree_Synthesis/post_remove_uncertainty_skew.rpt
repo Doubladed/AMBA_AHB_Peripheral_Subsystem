@@ -1,0 +1,17 @@
+****************************************
+Report : clock_skew
+Design : ahb_peripheral_top
+Mode   : slow_mode
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:34 2026
+****************************************
+
+****************************************
+Report : clock_skew
+Design : ahb_peripheral_top
+Mode   : fast_mode
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:34:34 2026
+****************************************
+
+1

@@ -1,0 +1,26 @@
+****************************************
+Report : qor
+        -summary
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Fri Aug 21 11:37:30 2026
+****************************************
+Information: Timer using 'SI, Timing Window Analysis, CRPR'. (TIM-050)
+
+Timing
+---------------------------------------------------------------------------
+Context                                 WNS            TNS            NVE
+---------------------------------------------------------------------------
+ss_scenario        (Setup)             2.04           0.00              0
+Design             (Setup)             2.04           0.00              0
+
+ff_scenario        (Hold)              0.02           0.00              0
+Design             (Hold)              0.02           0.00              0
+---------------------------------------------------------------------------
+
+Miscellaneous
+---------------------------------------------------------------------------
+Cell Area (netlist):                         452587.39
+Cell Area (netlist and physical only):       452587.39
+Nets with DRC Violations:        1
+1

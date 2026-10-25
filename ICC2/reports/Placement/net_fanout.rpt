@@ -1,0 +1,12 @@
+****************************************
+Report : net_fanout
+        -high_fanout
+Design : ahb_peripheral_top
+Version: X-2025.06-SP1-707
+Date   : Thu Aug 20 19:32:41 2026
+****************************************
+
+NetName                Fanout Driver
+-------                ------ ------
+HCLK                      900 HCLK
+1
