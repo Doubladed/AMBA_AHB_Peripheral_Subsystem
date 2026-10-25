@@ -1,10 +1,10 @@
-﻿# AMBA_AHB_Peripheral_Subsystem
+# AMBA_AHB_Peripheral_Subsystem
 
 This is my 32-bit AMBA AHB peripheral subsystem project, covering RTL design, simulation, synthesis, physical design and static timing analysis. It includes SRAM, UART, SPI and I2C, implemented using SAED 32 nm libraries.
 
 ## Architecture
 
-![Subsystem block diagram](AMBA_AHB_Block_Diagram.png)
+![Subsystem block diagram](Screenshot/AMBA_AHB_Block_Diagram.png)
 
 The subsystem has four AHB peripheral wrappers connected through an address decoder and response multiplexer. Each wrapper handles the AHB interface and connects it to the respective controller. UART, SPI and I2C also have their own register blocks.
 
@@ -19,13 +19,13 @@ The top-level connections are in [`ahb_peripheral_top.v`](RTL/ahb_peripheral_top
 
 ### Testbench
 
-![Overall design and testbench architecture](Overall%20Architecture%20v3.jpg)
+![Overall design and testbench architecture](Screenshot/Overall%20Architecture%20v3.jpg)
 
 An AHB bus functional model drives the subsystem. The testbenches use UART loopback, SPI EEPROM and FeRAM models, and I2C EEPROM and real-time clock/calendar (RTCC) models. SRAM is included in each test case.
 
 ### AHB basic transfers
 
-![AHB basic transfers](AMBA_AHB_Basic_Transfers.png)
+![AHB basic transfers](Screenshot/AMBA_AHB_Basic_Transfers.png)
 
 ## Simulation
 
@@ -33,35 +33,35 @@ Waveforms from the six test cases are shown below.
 
 ### SRAM
 
-![SRAM-to-SRAM testbench waveform](screenshot_tb_sram_sram.png)
+![SRAM-to-SRAM testbench waveform](Screenshot/screenshot_tb_sram_sram.png)
 
 ### UART loopback and SRAM
 
-![UART and SRAM testbench waveform](screenshot_tb_uart_sram.png)
+![UART and SRAM testbench waveform](Screenshot/screenshot_tb_uart_sram.png)
 
 ### SPI EEPROM and SRAM
 
-![SPI EEPROM and SRAM testbench waveform](screenshot_tb_spi_eeprom_sram.png)
+![SPI EEPROM and SRAM testbench waveform](Screenshot/screenshot_tb_spi_eeprom_sram.png)
 
 ### SPI FeRAM and SRAM
 
-![SPI FeRAM and SRAM testbench waveform](screenshot_tb_spi_feram_sram.png)
+![SPI FeRAM and SRAM testbench waveform](Screenshot/screenshot_tb_spi_feram_sram.png)
 
 ### I2C EEPROM and SRAM
 
-![I2C EEPROM and SRAM testbench waveform](screenshot_tb_i2c_eeprom_sram.png)
+![I2C EEPROM and SRAM testbench waveform](Screenshot/screenshot_tb_i2c_eeprom_sram.png)
 
 ### I2C RTCC and SRAM
 
-![I2C RTCC and SRAM testbench waveform](screenshot_tb_i2c_rtcc_sram.png)
+![I2C RTCC and SRAM testbench waveform](Screenshot/screenshot_tb_i2c_rtcc_sram.png)
 
 ## Synthesis and physical design
 
 The flow uses Synopsys Design Compiler for synthesis, IC Compiler II for physical design and PrimeTime for timing analysis. The clock target is **100 MHz (10 ns)**, as defined in [`cons.tcl`](DC/scripts/cons.tcl).
 
-![AMBA AHB peripheral subsystem layout](AMBA_AHB_Peripheral_Subsystem_Layout.png)
+![AMBA AHB peripheral subsystem layout](Screenshot/AMBA_AHB_Peripheral_Subsystem_Layout.png)
 
-A copy of the layout screenshot is also in [`ICC2/outputs/`](ICC2/outputs/AMBA_AHB_Peripheral_Subsystem_Layout.png).
+The [copy from the ICC2 outputs](Screenshot/ICC2_AMBA_AHB_Peripheral_Subsystem_Layout.png) is kept in the same folder.
 
 Reports are included for synthesis, floorplanning, placement, clock-tree synthesis, routing and timing ECO iterations.
 
@@ -78,6 +78,7 @@ There are still two maximum-capacitance violations on SRAM output pins in the sl
 
 | Folder | Contents |
 | --- | --- |
+| [`Screenshot/`](Screenshot/) | Architecture diagrams, simulation waveforms and layout screenshots |
 | [`RTL/`](RTL/) | Top-level module, AHB decoder/multiplexer, peripheral wrappers, registers and controllers |
 | [`AMBA_AHB_Peripheral_Subsystem/`](AMBA_AHB_Peripheral_Subsystem/) | Simulation RTL, behavioural models and testbenches, including the AHB BFM |
 | [`Behavioural_Models/`](Behavioural_Models/) | Memory and peripheral device models |
